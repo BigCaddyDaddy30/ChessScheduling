@@ -134,7 +134,7 @@
                             <h3><b>Existing User</b></h3>
 						</div>
 						<div class="content">
-							<form action="authenticate.php" method="POST" role="form">  
+							<form action="authenticate.php" method="POST" role="form" id="login_form">  
 							<div class="input-group">
 										<span class="input-group-addon">
 											<i class="material-icons">email</i>
@@ -160,7 +160,7 @@
 						</div>
 						<div class="footer text-center">
                             <a href="#" class="btn btn-simple btn-sm">Forgot Password</a>
-							<a href="#" class="btn btn-primary btn-lg" onclick="form.submit()" >Login</a>
+							<a href="#" class="btn btn-primary btn-lg" onclick="$("#login_form").submit()" >Login</a>
 						</div>
 						</form>
 					</td>
