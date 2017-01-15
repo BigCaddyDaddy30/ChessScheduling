@@ -1,3 +1,12 @@
+<?php 
+session_start();
+$role = $_SESSION['sess_userrole'];
+if(!isset($_SESSION['sess_username'])){
+    header('Location: home-page.php?err=2');
+}
+?>
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -32,7 +41,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">IPFW Chess Club</a>
+            <a class="navbar-brand" href="#">IPFW Chess Club - <?php echo $_SESSION['sess_username']; ?></a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
