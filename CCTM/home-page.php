@@ -67,7 +67,7 @@
 
 			<h1 align="center">Welcome to IPFW Chess Scheduling</h1>
 			<form class="form" method="" action="">
-				<table><tr>
+				<table align="left"><tr>
 					<td class="signinTD">
 						<div class="header header-primary text-center">
 							<h4>New User</h4>
@@ -129,7 +129,9 @@
 							<a href="#" class="btn btn-primary btn-lg">Register</a>
 						</div>
 					</td>
-					<td class="signinTD">
+                    </tr></table>
+                <table align="center"><tr>
+                <td class="signinTD">
 						<div class="header header-primary text-center">
 							<h4>Existing User</h4>
 						</div>
