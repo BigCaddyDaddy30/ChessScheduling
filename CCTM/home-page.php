@@ -67,7 +67,7 @@
 				<table align="left"><tr>
 					<td class="signinTD">
 						<div class="header header-primary text-center">
-							<h4>New User</h4>
+                            <h3><b>New User</b></h3>
 						</div>
 						<div class="content">
 
@@ -127,10 +127,11 @@
 						</div>
 					</td>
                     </tr></table>
+
                 <table align="center"><tr>
                 <td class="signinTD">
 						<div class="header header-primary text-center">
-							<h4>Existing User</h4>
+                            <h3><b>Existing User</b></h3>
 						</div>
 						<div class="content">
 
