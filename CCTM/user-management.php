@@ -47,6 +47,8 @@
                         <li class="active"><a href="user-management.php">User Management</a></li>
                     </ul>
                 </li>
+                <li><a href="home-page.php">Log Out</a></li>
+
             </ul>
         </div>
     </div>
