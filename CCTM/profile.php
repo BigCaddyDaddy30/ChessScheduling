@@ -45,6 +45,7 @@
                     <ul class="dropdown-menu">
                         <li class="active"><a href="profile.php">Profile</a></li>
                         <li><a href="user-management.php">User Management</a></li>
+                        <li><a href="home-page.php">Log Out</a></li>
                     </ul>
                 </li>
             </ul>
@@ -59,7 +60,29 @@
         <div class="container" style="padding-top: 50px">
 
             <!-- here you can add your content -->
-
+        <div class="rTable">
+            <div class="rTableRow">
+                <div class="rTableCell"><strong>Name</strong></div>
+                <div class="rTableCell"></div>
+            </div>
+            <div class="rTableRow">
+                <div class="rTableCell"><strong>Score</strong></div>
+                <div class="rTableCell"></div>
+            </div>
+            <div class="rTableRow">
+                <div class="rTableCell"><strong>Email</strong></div>
+                <div class="rTableCell"></div>
+            </div>
+            <div class="rTableRow">
+                <div class="rTableCell"><strong>Phone</strong></div>
+                <div class="rTableCell"></div>
+            </div>
+            <div class="rTableRow">
+                <div class="rTableCell"><strong>Password</strong></div>
+                <div class="rTableCell"></div>
+            </div>
+        </div>
+            <a href="#" class="btn btn-primary btn-lg">Update</a>
     </div>
 </div>
 
