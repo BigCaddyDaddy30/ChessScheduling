@@ -132,21 +132,21 @@
 							<h4>Existing User</h4>
 						</div>
 						<div class="content">
-
+							<form action="authenticate.php" method="POST" role="form">  
 							<div class="input-group">
 										<span class="input-group-addon">
 											<i class="material-icons">email</i>
 										</span>
-								<input type="email" class="form-control" placeholder="Email...">
+								<input name="username" type="email" class="form-control" placeholder="Email...">
 							</div>
 
 							<div class="input-group">
 										<span class="input-group-addon">
 											<i class="material-icons">lock_outline</i>
 										</span>
-								<input type="password" placeholder="Password..." class="form-control" />
+								<input name="password" type="password" placeholder="Password..." class="form-control" />
 							</div>
-
+							</form>
 							<!-- If you want to add a checkbox to this form, uncomment this code
 
                             <div class="checkbox">
