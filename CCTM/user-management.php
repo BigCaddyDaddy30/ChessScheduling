@@ -38,18 +38,14 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Rankings</a></li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account<b class="caret"></b></a>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Register</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tournament<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Schedule</a></li>
-                        <li><a href="#">Rankings</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">User Management</a></li>
                     </ul>
                 </li>
             </ul>
@@ -77,6 +73,7 @@
                     <div class="rTableHead"><strong>Delete</strong></div>
                 </div>
             </div>
+            <a href="#" class="btn btn-primary btn-lg">Update</a>
         </div>
     </div>
 </div>
