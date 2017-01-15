@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="assets/img/chess/Knight.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>Material Kit by Creative Tim</title>
+    <title>IPFW Chess Club - User Management</title>
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
@@ -64,7 +64,19 @@
         <div class="container" style="padding-top: 50px">
 
             <!-- here you can add your content -->
-
+            <div class="rTable">
+                <div class="rTableRow">
+                    <div class="rTableHead"><strong>First Name</strong></div>
+                    <div class="rTableHead"><strong>Last Name</strong></div>
+                    <div class="rTableHead"><strong>Email</strong></div>
+                    <div class="rTableHead"><strong>Phone#</strong></div>
+                    <div class="rTableHead"><strong>Password</strong></div>
+                    <div class="rTableHead"><strong>Division</strong></div>
+                    <div class="rTableHead"><strong>Score</strong></div>
+                    <div class="rTableHead"><strong>Is Official</strong></div>
+                    <div class="rTableHead"><strong>Delete</strong></div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
