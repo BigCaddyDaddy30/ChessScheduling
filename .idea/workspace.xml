@@ -1,7 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="041081d1-3a54-4869-aa17-046b6797c17f" name="Default" comment="Fixed the path on js files">
+    <list default="true" id="041081d1-3a54-4869-aa17-046b6797c17f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/bg2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/bg3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/bg4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/christian.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/city.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/examples/chris0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/examples/chris1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/examples/chris3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/examples/chris4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/examples/chris5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/examples/chris6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/examples/chris7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/examples/chris8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/examples/chris9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/examples/city.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/AD.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/AE.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/AG.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/AM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/AR.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/AT.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/AU.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/BE.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/BF.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/BG.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/BO.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/BR.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/CA.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/CD.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/CG.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/CH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/CL.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/CM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/CN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/CO.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/CZ.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/DE.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/DJ.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/DK.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/DZ.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/EE.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/EG.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/ES.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/FI.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/FR.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/GA.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/GB.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/GM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/GT.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/HN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/HT.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/HU.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/ID.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/IE.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/IL.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/IN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/IQ.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/IR.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/IT.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/JM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/JO.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/JP.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/KG.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/KN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/KP.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/KR.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/KW.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/KZ.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/LA.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/LB.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/LC.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/LS.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/LU.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/LV.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/MG.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/MK.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/ML.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/MM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/MT.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/MX.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/NA.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/NE.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/NG.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/NI.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/NL.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/NO.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/OM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/PA.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/PE.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/PG.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/PK.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/PL.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/PT.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/PY.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/QA.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/RO.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/RU.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/RW.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/SA.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/SE.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/SG.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/SL.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/SN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/SO.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/SV.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/TD.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/TJ.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/TL.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/TR.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/TZ.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/UA.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/US.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/VE.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/VN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/flags/YE.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/kendall.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/landing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/marc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CCTM/assets/img/profile.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CCTM/signup-page.html" afterPath="$PROJECT_DIR$/CCTM/signup-page.html" />
     </list>
@@ -27,8 +149,18 @@
       <file leaf-file-name="signup-page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CCTM/signup-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="102">
+              <caret line="6" column="68" lean-forward="true" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="material-kit.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CCTM/assets/css/material-kit.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="1880" column="20" lean-forward="true" selection-start-line="1880" selection-start-column="20" selection-end-line="1880" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -118,6 +250,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChessScheduling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChessScheduling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CCTM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChessScheduling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChessScheduling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CCTM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -142,7 +314,7 @@
       <workItem from="1484441747126" duration="177000" />
       <workItem from="1484443180596" duration="708000" />
       <workItem from="1484444182113" duration="230000" />
-      <workItem from="1484444425515" duration="310000" />
+      <workItem from="1484444425515" duration="761000" />
     </task>
     <task id="LOCAL-00001" summary="Testing updates with changing navbar color">
       <created>1484441107364</created>
@@ -158,11 +330,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484444242123</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed sign in title">
+      <created>1484444760286</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1484444760286</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1919000" />
+    <option name="totallyTimeSpent" value="2370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -203,7 +382,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testing updates with changing navbar color" />
     <MESSAGE value="Fixed the path on js files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the path on js files" />
+    <MESSAGE value="Changed sign in title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed sign in title" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -256,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CCTM/assets/css/material-kit.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6854">
-          <caret line="1766" column="0" lean-forward="false" selection-start-line="1766" selection-start-column="0" selection-end-line="1766" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CCTM/home-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -271,10 +444,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CCTM/assets/css/material-kit.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCTM/assets/css/material-kit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="1880" column="20" lean-forward="true" selection-start-line="1880" selection-start-column="20" selection-end-line="1880" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CCTM/signup-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="102">
+          <caret line="6" column="68" lean-forward="true" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
           <folding />
         </state>
       </provider>
