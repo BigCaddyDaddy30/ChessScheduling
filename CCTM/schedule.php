@@ -1,8 +1,8 @@
-<?php 
+<?php
 session_start();
-$role = $_SESSION['sess_userrole'];
+$role = $_SESSION['sess_userrole'];
 if(!isset($_SESSION['sess_username'])){
-    header('Location: home-page.php?err=2');
+    header('Location: home-page.php?err=2');
 }
 ?>
 
