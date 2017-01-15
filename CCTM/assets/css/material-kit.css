@@ -3777,6 +3777,7 @@ h2.title {
     display: table-cell;
     padding: 3px 10px;
     border: 1px solid #999999;
+    min-width: 75px;
 }
 .rTableHeading {
     display: table-header-group;

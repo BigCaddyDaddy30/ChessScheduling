@@ -45,6 +45,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="profile.php">Profile</a></li>
                         <li><a href="user-management.php">User Management</a></li>
+                        <li><a href="home-page.php">Log Out</a></li>
                     </ul>
                 </li>
             </ul>
@@ -66,7 +67,7 @@
 				<table align="left"><tr>
 					<td class="signinTD">
 						<div class="header header-primary text-center">
-							<h4>New User</h4>
+                            <h3><b>New User</b></h3>
 						</div>
 						<div class="content">
 
@@ -126,10 +127,11 @@
 						</div>
 					</td>
                     </tr></table>
+
                 <table align="center"><tr>
                 <td class="signinTD">
 						<div class="header header-primary text-center">
-							<h4>Existing User</h4>
+                            <h3><b>Existing User</b></h3>
 						</div>
 						<div class="content">
 							<form action="authenticate.php" method="POST" role="form">  
@@ -157,6 +159,7 @@
                             </div> -->
 						</div>
 						<div class="footer text-center">
+                            <a href="#" class="btn btn-simple btn-sm">Forgot Password</a>
 							<a href="#" class="btn btn-primary btn-lg">Login</a>
 						</div>
 					</td>

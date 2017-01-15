@@ -45,8 +45,8 @@
                     <ul class="dropdown-menu">
                         <li><a href="profile.php">Profile</a></li>
                         <li><a href="user-management.php">User Management</a></li>
+                        <li><a href="home-page.php">Log Out</a></li>
                     </ul>
-                </li>
             </ul>
         </div>
     </div>
@@ -59,7 +59,14 @@
         <div class="container" style="padding-top: 50px">
 
             <!-- here you can add your content -->
-
+            <div class="rTable">
+                <div class="rTableRow">
+                    <div class="rTableHead"><strong>First Name</strong></div>
+                    <div class="rTableHead"><strong>Last Name</strong></div>
+                    <div class="rTableHead"><strong>Division</strong></div>
+                    <div class="rTableHead"><strong>Score</strong></div>
+                </div>
+            </div>
     </div>
 </div>
 

@@ -40,13 +40,15 @@
                 <li><a href="home-page.php">Home</a></li>
                 <li><a href="schedule.php">Schedule</a></li>
                 <li><a href="rankings.php">Rankings</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Account<b class="caret"></b></a>
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="profile.php">Profile</a></li>
                         <li class="active"><a href="user-management.php">User Management</a></li>
+                        <li><a href="home-page.php">Log Out</a></li>
                     </ul>
                 </li>
+
             </ul>
         </div>
     </div>
