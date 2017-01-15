@@ -39,12 +39,11 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="home-page.php">Home</a></li>
                 <li><a href="schedule.php">Schedule</a></li>
-                <li><a href="#">Rankings</a></li>
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account<b class="caret"></b></a>
+                <li><a href="rankings.php">Rankings</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Profile</a></li>
+                        <li><a href="profile.php">Profile</a></li>
                         <li><a href="user-management.php">User Management</a></li>
                     </ul>
                 </li>
