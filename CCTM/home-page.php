@@ -62,7 +62,7 @@
 			<!-- here you can add your content -->
 
 			<h1 align="center">Welcome to IPFW Chess Scheduling</h1>
-            <h2 align="center"><img src="assets/img/chess/knight.jpg"</img></h2>
+            <h2 align="center"><img src="assets/img/chess/knight.jpg"></img></h2>
 			<form class="form" method="" action="">
 				<table align="left"><tr>
 					<td class="signinTD">
@@ -157,7 +157,7 @@
                                     Subscribe to newsletter
                                 </label>
                             </div> -->
-						</div>
+						<!-- </div> -->
 						<div class="footer text-center">
                             <a href="#" class="btn btn-simple btn-sm">Forgot Password</a>
 							<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
