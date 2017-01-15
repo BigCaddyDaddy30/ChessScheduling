@@ -148,7 +148,7 @@
 										</span>
 								<input name="password" type="password" placeholder="Password..." class="form-control" />
 							</div>
-							</form>
+							
 							<!-- If you want to add a checkbox to this form, uncomment this code
 
                             <div class="checkbox">
@@ -160,8 +160,9 @@
 						</div>
 						<div class="footer text-center">
                             <a href="#" class="btn btn-simple btn-sm">Forgot Password</a>
-							<a href="#" class="btn btn-primary btn-lg">Login</a>
+							<a href="#" class="btn btn-primary btn-lg" onclick="form.submit()" >Login</a>
 						</div>
+						</form>
 					</td>
 				</tr></table>
 			</form>
