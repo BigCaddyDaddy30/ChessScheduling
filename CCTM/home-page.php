@@ -66,6 +66,7 @@
 			<!-- here you can add your content -->
 
 			<h1 align="center">Welcome to IPFW Chess Scheduling</h1>
+            <h2 align="center"><img src="assets/img/chess/knight.jpg"</img></h2>
 			<form class="form" method="" action="">
 				<table align="left"><tr>
 					<td class="signinTD">
