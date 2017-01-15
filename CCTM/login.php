@@ -20,12 +20,12 @@
                 } elseif ($error_id == 2) {
                     echo '<p class="text-danger">'.$errors[$error_id].'</p>';
                 }
-                ?>  
-        
-                <form action="authenticate.php" method="POST" class="form-signin col-md-8 col-md-offset-2" role="form">  
-                    <input type="text" name="username" class="form-control" placeholder="Username" required autofocus><br/>
-                    <input type="password" name="password" class="form-control" placeholder="Password" required><br/>
-                    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                ?>
+
+                <form action="authenticate.php" method="POST" class="form-signin col-md-8 col-md-offset-2" role="form">
+                    <input type="text" name="username" class="form-control" placeholder="Username" required autofocus><br/>
+                    <input type="password" name="password" class="form-control" placeholder="Password" required><br/>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
                 </form>
             </div>
         </div>
