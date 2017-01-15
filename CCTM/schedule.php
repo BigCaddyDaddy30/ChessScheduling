@@ -45,6 +45,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="profile.php">Profile</a></li>
                         <li><a href="user-management.php">User Management</a></li>
+                        <li><a href="home-page.php">Log Out</a></li>
                     </ul>
                 </li>
             </ul>
@@ -60,6 +61,7 @@
 
             <!-- here you can add your content -->
 
+        </div>
     </div>
 </div>
 

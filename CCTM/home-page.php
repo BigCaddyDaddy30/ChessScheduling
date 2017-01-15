@@ -45,6 +45,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="profile.php">Profile</a></li>
                         <li><a href="user-management.php">User Management</a></li>
+                        <li><a href="home-page.php">Log Out</a></li>
                     </ul>
                 </li>
             </ul>
@@ -158,6 +159,7 @@
                             </div> -->
 						</div>
 						<div class="footer text-center">
+                            <a href="#" class="btn btn-simple btn-sm">Forgot Password</a>
 							<a href="#" class="btn btn-primary btn-lg">Login</a>
 						</div>
 					</td>

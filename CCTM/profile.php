@@ -40,16 +40,14 @@
                 <li><a href="home-page.php">Home</a></li>
                 <li><a href="schedule.php">Schedule</a></li>
                 <li><a href="rankings.php">Rankings</a></li>
-
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li class="active"><a href="profile.php">Profile</a></li>
                         <li><a href="user-management.php">User Management</a></li>
+                        <li><a href="home-page.php">Log Out</a></li>
                     </ul>
                 </li>
-                <li><a href="home-page.php">Log Out</a></li>
-
             </ul>
         </div>
     </div>
