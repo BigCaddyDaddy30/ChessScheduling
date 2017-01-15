@@ -38,8 +38,8 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="home-page.php">Home</a></li>
-                <li class="active"><a href="schedule.php">Schedule</a></li>
-                <li><a href="rankings.php">Rankings</a></li>
+                <li><a href="schedule.php">Schedule</a></li>
+                <li class="active"><a href="rankings.php">Rankings</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account<b class="caret"></b></a>
                     <ul class="dropdown-menu">
