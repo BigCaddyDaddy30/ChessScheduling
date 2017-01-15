@@ -160,7 +160,7 @@
 						</div>
 						<div class="footer text-center">
                             <a href="#" class="btn btn-simple btn-sm">Forgot Password</a>
-							<a href="#" class="btn btn-primary btn-lg" onclick="$("#login_form").submit()" >Login</a>
+							<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 						</div>
 						</form>
 					</td>
