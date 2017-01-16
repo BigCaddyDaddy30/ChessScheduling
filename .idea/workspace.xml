@@ -51,10 +51,10 @@
         <entry file="file://$PROJECT_DIR$/CCTM/user-management.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="104" column="112" lean-forward="true" selection-start-line="104" selection-start-column="112" selection-end-line="104" selection-end-column="112" />
+              <caret line="104" column="100" lean-forward="true" selection-start-line="104" selection-start-column="100" selection-end-line="104" selection-end-column="100" />
               <folding>
-                <marker date="1484594193000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-                <marker date="1484594193000" expanded="true" signature="5062:5087" ph="..." />
+                <marker date="1484594283000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+                <marker date="1484594283000" expanded="true" signature="5050:5075" ph="..." />
               </folding>
             </state>
           </provider>
@@ -421,7 +421,7 @@
       <workItem from="1484515702286" duration="4578000" />
       <workItem from="1484520392813" duration="247000" />
       <workItem from="1484521674548" duration="7000" />
-      <workItem from="1484583204788" duration="7217000" />
+      <workItem from="1484583204788" duration="7307000" />
     </task>
     <task id="LOCAL-00001" summary="Testing updates with changing navbar color">
       <created>1484441107364</created>
@@ -556,11 +556,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484593649502</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Working on delete button.">
+      <created>1484594212949</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1484594212949</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16400000" />
+    <option name="totallyTimeSpent" value="16490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="6" />
@@ -610,7 +617,8 @@
     <MESSAGE value="Added PHP calls for tables in the User Management table." />
     <MESSAGE value="Fixes for User Management table." />
     <MESSAGE value="Working on isOfficial column." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on isOfficial column." />
+    <MESSAGE value="Working on delete button." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on delete button." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -630,8 +638,8 @@
         <state relative-caret-position="1125">
           <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="76" selection-end-column="65" />
           <folding>
-            <marker date="1484594193000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484594193000" expanded="true" signature="5062:5087" ph="..." />
+            <marker date="1484594283000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+            <marker date="1484594283000" expanded="true" signature="5050:5075" ph="..." />
           </folding>
         </state>
       </provider>
@@ -670,8 +678,8 @@
         <state relative-caret-position="1125">
           <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="76" selection-end-column="65" />
           <folding>
-            <marker date="1484594193000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484594193000" expanded="true" signature="5062:5087" ph="..." />
+            <marker date="1484594283000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+            <marker date="1484594283000" expanded="true" signature="5050:5075" ph="..." />
           </folding>
         </state>
       </provider>
@@ -734,8 +742,8 @@
         <state relative-caret-position="833">
           <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding>
-            <marker date="1484594193000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484594193000" expanded="true" signature="5062:5087" ph="..." />
+            <marker date="1484594283000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+            <marker date="1484594283000" expanded="true" signature="5050:5075" ph="..." />
           </folding>
         </state>
       </provider>
@@ -892,10 +900,10 @@
     <entry file="file://$PROJECT_DIR$/CCTM/user-management.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="104" column="112" lean-forward="true" selection-start-line="104" selection-start-column="112" selection-end-line="104" selection-end-column="112" />
+          <caret line="104" column="100" lean-forward="true" selection-start-line="104" selection-start-column="100" selection-end-line="104" selection-end-column="100" />
           <folding>
-            <marker date="1484594193000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484594193000" expanded="true" signature="5062:5087" ph="..." />
+            <marker date="1484594283000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+            <marker date="1484594283000" expanded="true" signature="5050:5075" ph="..." />
           </folding>
         </state>
       </provider>
