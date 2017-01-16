@@ -97,7 +97,12 @@ if(!isset($_SESSION['sess_username'])){
                     echo "  <div class=\"rTableCell\">{$row['phone']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['password']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['division']}</div>";
-                    echo "  <div class=\"rTableCell\">{$row['score']}</div>";
+                    echo "  <div class=\"rTableCell\">{$row['score']}</div>"; ?>
+                    <input type="radio" name="Yes"
+                    <?php if ($type > 2) echo "checked";?> value="yes">Yes
+                    <input type="radio" name="No"
+                    <?php if ($type < 2) echo "checked";?> value="no">No
+                <?php
                     echo "  <div class=\"rTableCell\">{$row['type']}</div>";
                     echo "</div>";
                 }
