@@ -50,11 +50,11 @@
       <file leaf-file-name="user-management.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CCTM/user-management.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="88" column="63" lean-forward="false" selection-start-line="88" selection-start-column="63" selection-end-line="88" selection-end-column="63" />
+            <state relative-caret-position="469">
+              <caret line="112" column="21" lean-forward="false" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
               <folding>
-                <marker date="1484594408000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-                <marker date="1484594408000" expanded="true" signature="5055:5080" ph="..." />
+                <marker date="1484595194000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+                <marker date="1484595194000" expanded="true" signature="5277:5302" ph="..." />
               </folding>
             </state>
           </provider>
@@ -421,7 +421,7 @@
       <workItem from="1484515702286" duration="4578000" />
       <workItem from="1484520392813" duration="247000" />
       <workItem from="1484521674548" duration="7000" />
-      <workItem from="1484583204788" duration="7431000" />
+      <workItem from="1484583204788" duration="8207000" />
     </task>
     <task id="LOCAL-00001" summary="Testing updates with changing navbar color">
       <created>1484441107364</created>
@@ -577,11 +577,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484594344056</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Changed column head to Delete User.">
+      <created>1484594426259</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1484594426259</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16614000" />
+    <option name="totallyTimeSpent" value="17390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="6" />
@@ -632,7 +639,8 @@
     <MESSAGE value="Fixes for User Management table." />
     <MESSAGE value="Working on isOfficial column." />
     <MESSAGE value="Working on delete button." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on delete button." />
+    <MESSAGE value="Changed column head to Delete User." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed column head to Delete User." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -652,8 +660,8 @@
         <state relative-caret-position="1125">
           <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="76" selection-end-column="65" />
           <folding>
-            <marker date="1484594408000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484594408000" expanded="true" signature="5055:5080" ph="..." />
+            <marker date="1484595194000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+            <marker date="1484595194000" expanded="true" signature="5277:5302" ph="..." />
           </folding>
         </state>
       </provider>
@@ -692,8 +700,8 @@
         <state relative-caret-position="1125">
           <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="76" selection-end-column="65" />
           <folding>
-            <marker date="1484594408000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484594408000" expanded="true" signature="5055:5080" ph="..." />
+            <marker date="1484595194000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+            <marker date="1484595194000" expanded="true" signature="5277:5302" ph="..." />
           </folding>
         </state>
       </provider>
@@ -756,8 +764,8 @@
         <state relative-caret-position="833">
           <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding>
-            <marker date="1484594408000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484594408000" expanded="true" signature="5055:5080" ph="..." />
+            <marker date="1484595194000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+            <marker date="1484595194000" expanded="true" signature="5277:5302" ph="..." />
           </folding>
         </state>
       </provider>
@@ -913,11 +921,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CCTM/user-management.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="88" column="63" lean-forward="false" selection-start-line="88" selection-start-column="63" selection-end-line="88" selection-end-column="63" />
+        <state relative-caret-position="469">
+          <caret line="112" column="21" lean-forward="false" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
           <folding>
-            <marker date="1484594408000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484594408000" expanded="true" signature="5055:5080" ph="..." />
+            <marker date="1484595194000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+            <marker date="1484595194000" expanded="true" signature="5277:5302" ph="..." />
           </folding>
         </state>
       </provider>
