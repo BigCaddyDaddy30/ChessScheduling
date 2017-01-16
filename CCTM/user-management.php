@@ -104,11 +104,11 @@ if(!isset($_SESSION['sess_username'])){
                         <?php if ($row['type'] > 2 ) echo "checked";?> value="no">No</div>
                     <?php
                     if($_SESSION['sess_username'] == $row['email']){
-
+                        echo " <div class=\"rTableCell\"></div>";
                     } else { ?>
                         <div class="rTableCell">
                             <button name="<?php echo $row['id'] ?>">Delete</button>
-                        </div>}
+                        </div>
                         <?php
                     }
                     echo "</div>";
