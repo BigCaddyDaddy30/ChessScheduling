@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="041081d1-3a54-4869-aa17-046b6797c17f" name="Default" comment="">
+    <list default="true" id="041081d1-3a54-4869-aa17-046b6797c17f" name="Default" comment="Making Delete button only available to Admin and officials.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CCTM/user-management.php" afterPath="$PROJECT_DIR$/CCTM/user-management.php" />
     </list>
@@ -50,11 +50,11 @@
       <file leaf-file-name="user-management.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CCTM/user-management.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="113" column="60" lean-forward="true" selection-start-line="113" selection-start-column="60" selection-end-line="113" selection-end-column="60" />
+            <state relative-caret-position="214">
+              <caret line="121" column="48" lean-forward="true" selection-start-line="121" selection-start-column="48" selection-end-line="121" selection-end-column="48" />
               <folding>
-                <marker date="1484601153000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-                <marker date="1484601153000" expanded="true" signature="5866:5891" ph="..." />
+                <marker date="1484602657000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+                <marker date="1484602657000" expanded="true" signature="5937:5962" ph="..." />
               </folding>
             </state>
           </provider>
@@ -75,13 +75,9 @@
       <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CCTM/profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="92" column="110" lean-forward="false" selection-start-line="92" selection-start-column="110" selection-end-line="92" selection-end-column="110" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1484596927000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
-              </folding>
+            <state relative-caret-position="540">
+              <caret line="104" column="110" lean-forward="false" selection-start-line="104" selection-start-column="110" selection-end-line="104" selection-end-column="110" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -269,7 +265,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/CCTM/home-page.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/CCTM/profile.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -277,7 +273,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/CCTM/register.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -422,7 +417,7 @@
       <workItem from="1484515702286" duration="4578000" />
       <workItem from="1484520392813" duration="247000" />
       <workItem from="1484521674548" duration="7000" />
-      <workItem from="1484583204788" duration="13135000" />
+      <workItem from="1484583204788" duration="14438000" />
     </task>
     <task id="LOCAL-00001" summary="Testing updates with changing navbar color">
       <created>1484441107364</created>
@@ -662,11 +657,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484600782698</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Making isOfficial radio buttons only available to Administrators, otherwise, they see a Yes or No if the user is an Official.">
+      <created>1484601165433</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1484601165433</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22318000" />
+    <option name="totallyTimeSpent" value="23621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="6" />
@@ -743,8 +745,8 @@
         <state relative-caret-position="1125">
           <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="76" selection-end-column="65" />
           <folding>
-            <marker date="1484601153000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484601153000" expanded="true" signature="5866:5891" ph="..." />
+            <marker date="1484602657000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+            <marker date="1484602657000" expanded="true" signature="5937:5962" ph="..." />
           </folding>
         </state>
       </provider>
@@ -783,8 +785,8 @@
         <state relative-caret-position="1125">
           <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="76" selection-end-column="65" />
           <folding>
-            <marker date="1484601153000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484601153000" expanded="true" signature="5866:5891" ph="..." />
+            <marker date="1484602657000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+            <marker date="1484602657000" expanded="true" signature="5937:5962" ph="..." />
           </folding>
         </state>
       </provider>
@@ -814,11 +816,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
           <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1484596927000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -847,8 +845,8 @@
         <state relative-caret-position="833">
           <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding>
-            <marker date="1484601153000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484601153000" expanded="true" signature="5866:5891" ph="..." />
+            <marker date="1484602657000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+            <marker date="1484602657000" expanded="true" signature="5937:5962" ph="..." />
           </folding>
         </state>
       </provider>
@@ -878,11 +876,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1484596927000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -992,23 +986,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CCTM/profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="92" column="110" lean-forward="false" selection-start-line="92" selection-start-column="110" selection-end-line="92" selection-end-column="110" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1484596927000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="104" column="110" lean-forward="false" selection-start-line="104" selection-start-column="110" selection-end-line="104" selection-end-column="110" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CCTM/user-management.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="113" column="60" lean-forward="true" selection-start-line="113" selection-start-column="60" selection-end-line="113" selection-end-column="60" />
+        <state relative-caret-position="214">
+          <caret line="121" column="48" lean-forward="true" selection-start-line="121" selection-start-column="48" selection-end-line="121" selection-end-column="48" />
           <folding>
-            <marker date="1484601153000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484601153000" expanded="true" signature="5866:5891" ph="..." />
+            <marker date="1484602657000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+            <marker date="1484602657000" expanded="true" signature="5937:5962" ph="..." />
           </folding>
         </state>
       </provider>
