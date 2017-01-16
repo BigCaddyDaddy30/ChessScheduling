@@ -50,11 +50,11 @@
       <file leaf-file-name="user-management.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CCTM/user-management.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="101" column="37" lean-forward="false" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
+            <state relative-caret-position="510">
+              <caret line="105" column="22" lean-forward="false" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="78" />
               <folding>
-                <marker date="1484592939000" expanded="true" signature="2916:3030" ph="SELECT first... " />
-                <marker date="1484592939000" expanded="true" signature="4911:4936" ph="..." />
+                <marker date="1484592989000" expanded="true" signature="2916:3030" ph="SELECT first... " />
+                <marker date="1484592989000" expanded="true" signature="4913:4938" ph="..." />
               </folding>
             </state>
           </provider>
@@ -421,7 +421,7 @@
       <workItem from="1484515702286" duration="4578000" />
       <workItem from="1484520392813" duration="247000" />
       <workItem from="1484521674548" duration="7000" />
-      <workItem from="1484583204788" duration="6004000" />
+      <workItem from="1484583204788" duration="6054000" />
     </task>
     <task id="LOCAL-00001" summary="Testing updates with changing navbar color">
       <created>1484441107364</created>
@@ -507,11 +507,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484592789605</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Working on isOfficial column.">
+      <created>1484592946217</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1484592946217</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15187000" />
+    <option name="totallyTimeSpent" value="15237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="6" />
@@ -581,8 +588,8 @@
         <state relative-caret-position="1125">
           <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="76" selection-end-column="65" />
           <folding>
-            <marker date="1484592939000" expanded="true" signature="2916:3030" ph="SELECT first... " />
-            <marker date="1484592939000" expanded="true" signature="4911:4936" ph="..." />
+            <marker date="1484592989000" expanded="true" signature="2916:3030" ph="SELECT first... " />
+            <marker date="1484592989000" expanded="true" signature="4913:4938" ph="..." />
           </folding>
         </state>
       </provider>
@@ -621,8 +628,8 @@
         <state relative-caret-position="1125">
           <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="76" selection-end-column="65" />
           <folding>
-            <marker date="1484592939000" expanded="true" signature="2916:3030" ph="SELECT first... " />
-            <marker date="1484592939000" expanded="true" signature="4911:4936" ph="..." />
+            <marker date="1484592989000" expanded="true" signature="2916:3030" ph="SELECT first... " />
+            <marker date="1484592989000" expanded="true" signature="4913:4938" ph="..." />
           </folding>
         </state>
       </provider>
@@ -685,8 +692,8 @@
         <state relative-caret-position="833">
           <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding>
-            <marker date="1484592939000" expanded="true" signature="2916:3030" ph="SELECT first... " />
-            <marker date="1484592939000" expanded="true" signature="4911:4936" ph="..." />
+            <marker date="1484592989000" expanded="true" signature="2916:3030" ph="SELECT first... " />
+            <marker date="1484592989000" expanded="true" signature="4913:4938" ph="..." />
           </folding>
         </state>
       </provider>
@@ -842,11 +849,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CCTM/user-management.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="101" column="37" lean-forward="false" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
+        <state relative-caret-position="510">
+          <caret line="105" column="22" lean-forward="false" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="78" />
           <folding>
-            <marker date="1484592939000" expanded="true" signature="2916:3030" ph="SELECT first... " />
-            <marker date="1484592939000" expanded="true" signature="4911:4936" ph="..." />
+            <marker date="1484592989000" expanded="true" signature="2916:3030" ph="SELECT first... " />
+            <marker date="1484592989000" expanded="true" signature="4913:4938" ph="..." />
           </folding>
         </state>
       </provider>

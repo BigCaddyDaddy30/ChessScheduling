@@ -103,7 +103,7 @@ if(!isset($_SESSION['sess_username'])){
                     <input type="radio"
                     <?php if ($type > 2) echo "checked";?> value="no">No
                 <?php
-                    echo "  <div class=\"rTableCell\">{$row['type']}</div>";
+//                    echo "  <div class=\"rTableCell\">{$row['type']}</div>";
                     echo "</div>";
                 }
                 ?>
