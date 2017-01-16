@@ -15,7 +15,7 @@ if(!isset($_SESSION['sess_username'])){
     <link rel="icon" type="image/png" href="assets/img/chess/Knight.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>IPFW Chess Club - User Management</title>
+    <title>IPFW Chess Club - Schedule</title>
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
@@ -68,7 +68,35 @@ if(!isset($_SESSION['sess_username'])){
     <div class="main-raised" style="background-color: white">
         <div class="container" style="padding-top: 50px">
 
+            <?php 
+            require('database-config.php');
+            $q = 'SELECT game,division,week,player1,player1_points,player2,player2_points FROM schedule 
+                    ORDER BY division ASC, week DESC';
+            $query = $dbh->prepare($q);
+            $query->execute();
+            ?>
             <!-- here you can add your content -->
+            <div class="rTable">
+                <div class="rTableRow">
+                    <div class="rTableHead"><strong>Division</strong></div>
+                    <div class="rTableHead"><strong>Week</strong></div>
+                    <div class="rTableHead"><strong>Player 1</strong></div>
+                    <div class="rTableHead"><strong>Player 1 Points</strong></div>
+                    <div class="rTableHead"><strong>Player 2</strong></div>
+                    <div class="rTableHead"><strong>Player 2 Points</strong></div>
+                </div>
+                <?php
+                while ($row = $query->fetch(PDO::FETCH_ASSOC)) {
+                    echo "<div class=\"rTableRow\">";
+                    echo "  <div class=\"rTableCell\">{$row['division']}</div>";
+                    echo "  <div class=\"rTableCell\">{$row['week']}</div>";
+                    echo "  <div class=\"rTableCell\">{$row['player1']}</div>";
+                    echo "  <div class=\"rTableCell\">{$row['player1_points']}</div>";
+                    echo "  <div class=\"rTableCell\">{$row['player2']}</div>";
+                    echo "  <div class=\"rTableCell\">{$row['player2_points']}</div>";
+                    echo "</div>";
+                }
+                ?>
 
         </div>
     </div>
