@@ -112,7 +112,7 @@ if (!empty($_POST['id']) && !empty($_POST['password'])) {
                         <form method="POST" action="user-management.php">
                             <input type="hidden" name="id" value="<?php echo $row['id'];?>">
                             <input type="text" name="password" value="<?php echo $row['password'];?>">
-                            <button class="btn btn-lg btn-primary btn-block" type="submit">Update</button>
+                            <button class="btn btn-primary" type="submit">Update</button>
                         </form>
                         </div>
                     <?php } else {
