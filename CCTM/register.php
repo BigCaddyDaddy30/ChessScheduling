@@ -22,6 +22,7 @@ if (isset($_POST['first'])
 
     if ($query->rowCount() > 0) {
         header('Location: home-page.php?err=4');
+        exit();
     } else {
         $q = 'INSERT INTO members (id,first,last,phone,email,password,division,score,type) 
         VALUES (NULL,:first,:last,:phone,:email,:password,NULL,NULL,3)';
