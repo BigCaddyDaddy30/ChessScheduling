@@ -97,7 +97,7 @@ if(!isset($_SESSION['sess_username'])){
                     echo "  <div class=\"rTableCell\">{$row['phone']}</div>";
 
                     if($_SESSION['sess_userrole'] == 1 ){ ?>
-                        <div class="rTableCell"><input type="text" name="password" value="<?php echo $row['password'];?>">
+                        <div class="rTableCell"><input type="text" name="password" value="<?php echo $row['password'];?>"></div>
                     <?php } else {
                         echo " <div class=\"rTableCell\"></div>";
                     }
