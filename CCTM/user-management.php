@@ -120,8 +120,9 @@ if(!isset($_SESSION['sess_username'])){
                         echo " <div class=\"rTableCell\"></div>";
                     } else { ?>
                         <div class="rTableCell">
-                            <?php if($_SESSION['sess_userrole'] < 3)?>
+                            <?php if($_SESSION['sess_userrole'] < 3) {?>
                             <button name="<?php echo $row['id'] ?>">Delete</button>
+                            <?php } ?>
                         </div>
                         <?php
                     }
