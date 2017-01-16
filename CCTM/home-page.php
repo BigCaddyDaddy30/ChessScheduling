@@ -62,7 +62,7 @@
 			<!-- here you can add your content -->
 
 			<h1 align="center">Welcome to IPFW Chess Scheduling</h1>
-            <h2 align="center"><img src="assets/img/chess/knight.jpg"></img></h2>
+            <h2 align="center"><img src="assets/img/chess/knight.jpg"</img></h2>
 			<form class="form" method="" action="">
 				<table align="left"><tr>
 					<td class="signinTD">
@@ -134,21 +134,21 @@
                             <h3><b>Existing User</b></h3>
 						</div>
 						<div class="content">
-							<form action="authenticate.php" method="POST" role="form" id="login_form">  
+
 							<div class="input-group">
 										<span class="input-group-addon">
 											<i class="material-icons">email</i>
 										</span>
-								<input name="username" type="email" class="form-control" placeholder="Email...">
+								<input type="email" class="form-control" placeholder="Email...">
 							</div>
 
 							<div class="input-group">
 										<span class="input-group-addon">
 											<i class="material-icons">lock_outline</i>
 										</span>
-								<input name="password" type="password" placeholder="Password..." class="form-control" />
+								<input type="password" placeholder="Password..." class="form-control" />
 							</div>
-							
+
 							<!-- If you want to add a checkbox to this form, uncomment this code
 
                             <div class="checkbox">
@@ -157,12 +157,11 @@
                                     Subscribe to newsletter
                                 </label>
                             </div> -->
-						<!-- </div> -->
+						</div>
 						<div class="footer text-center">
                             <a href="#" class="btn btn-simple btn-sm">Forgot Password</a>
-							<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+							<a href="#" class="btn btn-primary btn-lg">Login</a>
 						</div>
-						</form>
 					</td>
 				</tr></table>
 			</form>
