@@ -28,7 +28,7 @@ if($query->rowCount() == 0) {
 
     session_regenerate_id();
     $_SESSION['sess_user_id'] = $row['id'];
-    $_SESSION['sess_username'] = $row['username'];
+    $_SESSION['sess_username'] = $row['email'];
     $_SESSION['sess_userrole'] = $row['type'];
 
     echo $_SESSION['sess_userrole'];
