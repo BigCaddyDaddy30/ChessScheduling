@@ -108,9 +108,9 @@ if(!isset($_SESSION['sess_username'])){
                     <?php if ($row['type'] < 3 ) echo "checked";?> value="yes">Yes
                     <input type="radio" name="<?php echo $row['id']?>"
                         <?php if ($row['type'] > 2 ) echo "checked";?> value="no">No</div>
-                    <?php } else {
-                        if ($row['type'] < 3 ) echo "Yes";
-                        if ($row['type'] > 2 ) echo "No";
+                    <?php } else { ?>
+                        <div class="rTableCell"><?php if ($row['type'] < 3 ) echo "Yes";?>
+                            <div class="rTableCell"><?php if ($row['type'] > 2 ) echo "No";?>
                     } ?>
 
                     <?php
