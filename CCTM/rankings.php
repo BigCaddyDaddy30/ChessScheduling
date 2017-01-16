@@ -67,7 +67,7 @@ if(!isset($_SESSION['sess_username'])){
         <div class="container" style="padding-top: 50px">
 
             <?php 
-            require_once('database-config.php');
+            require('database-config.php');
             $q = 'SELECT first,last,division,score FROM members 
                     WHERE division IS NOT NULL
                     ORDER BY division ASC, score DESC';

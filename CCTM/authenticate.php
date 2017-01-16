@@ -1,6 +1,6 @@
 <?php
 
-require_once('database-config.php');
+require('database-config.php');
 
 session_start();
 
