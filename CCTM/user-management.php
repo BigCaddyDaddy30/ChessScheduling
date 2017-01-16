@@ -120,7 +120,7 @@ if (!empty($_POST['id']) && !empty($_POST['password'])) {
                     }
                     echo "  <div class=\"rTableCell\">{$row['division']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['score']}</div>";?>
-                    <?php if($_SESSION['sess_userrole'] == 1) { ?>
+                    <?php if($_SESSION['sess_userrole'] == 1 && $row['type'] != 1) { ?>
                         <div class="rTableCell"><input type="radio" name="<?php echo $row['id']?>"
                     <?php if ($row['type'] < 3 ) echo "checked";?> value="yes">Yes
                     <input type="radio" name="<?php echo $row['id']?>"
