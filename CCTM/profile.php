@@ -66,28 +66,35 @@ if(!isset($_SESSION['sess_username'])){
     <!-- you can use the class main-raised if you want the main area to be as a page with shadows -->
     <div class="main-raised" style="background-color: white">
         <div class="container" style="padding-top: 50px">
+        <?php 
+        require_once(database-config.php);
+        $q = 'SELECT * FROM members WHERE id=:id';
+        $query = $dbh->prepare($q);
+        $query->execute(array(':id' => $_SESSION['sess_user_id']));
 
+        $row = $query->fetch(PDO::FETCH_ASSOC);
+        ?>
             <!-- here you can add your content -->
         <div class="rTable">
             <div class="rTableRow">
                 <div class="rTableCell"><strong>Name</strong></div>
-                <div class="rTableCell"></div>
+                <div class="rTableCell"><?php echo $row['first'] . ' ' $row['last']; ?></div>
             </div>
             <div class="rTableRow">
                 <div class="rTableCell"><strong>Score</strong></div>
-                <div class="rTableCell"></div>
+                <div class="rTableCell"><?php echo $row['score']; ?></div>
             </div>
             <div class="rTableRow">
                 <div class="rTableCell"><strong>Email</strong></div>
-                <div class="rTableCell"></div>
+                <div class="rTableCell"><?php echo $row['email']; ?></div>
             </div>
             <div class="rTableRow">
                 <div class="rTableCell"><strong>Phone</strong></div>
-                <div class="rTableCell"></div>
+                <div class="rTableCell"><?php echo $row['phone']; ?></div>
             </div>
             <div class="rTableRow">
                 <div class="rTableCell"><strong>Password</strong></div>
-                <div class="rTableCell"></div>
+                <div class="rTableCell"><?php echo $row['password']; ?></div>
             </div>
         </div>
             <a href="#" class="btn btn-primary btn-lg">Update</a>
