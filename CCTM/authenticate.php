@@ -24,7 +24,7 @@ $query->execute(array(':username' => $username, ':password' => $password));
 if($query->rowCount() == 0) {
     header('Location: login.php?err=1');
 } else {
-    $row = $query->fetch(PDO::FETCH_ASSOC);
+    $row = $query->fetch(PDO::FETCH_ASSOC);
 
     session_regenerate_id();
     $_SESSION['sess_user_id'] = $row['id'];
