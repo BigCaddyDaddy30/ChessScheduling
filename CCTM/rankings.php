@@ -66,6 +66,14 @@ if(!isset($_SESSION['sess_username'])){
     <div class="main-raised" style="background-color: white">
         <div class="container" style="padding-top: 50px">
 
+            <?php 
+            require_once('database-config.php');
+            $q = 'SELECT first,last,division,score FROM members 
+                    WHERE division IS NOT NULL
+                    ORDER BY division ASC, score DESC';
+            $query = $dbh->prepare($q);
+            $query->execute();
+            ?>
             <!-- here you can add your content -->
             <div class="rTable">
                 <div class="rTableRow">
@@ -74,6 +82,16 @@ if(!isset($_SESSION['sess_username'])){
                     <div class="rTableHead"><strong>Division</strong></div>
                     <div class="rTableHead"><strong>Score</strong></div>
                 </div>
+                <?php
+                while ($row = $query->fetch(PDO::FETCH_ASSOC)) {
+                    echo "<div class=\"rTableRow\">";
+                    echo "  <div class=\"rTableCell\">{$row['first']}</div>";
+                    echo "  <div class=\"rTableCell\">{$row['last']}</div>";
+                    echo "  <div class=\"rTableCell\">{$row['division']}</div>";
+                    echo "  <div class=\"rTableCell\">{$row['score']}</div>";
+                    echo "</div>";
+                }
+                ?>
             </div>
     </div>
 </div>
