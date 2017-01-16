@@ -127,9 +127,10 @@
 						</div>
 					</td>
                     </tr></table>
-
+				</form>
                 <table align="center"><tr>
                 <td class="signinTD">
+					<form action="authenticate.php" method="POST" role="form">
 						<div class="header header-primary text-center">
                             <h3><b>Existing User</b></h3>
 						</div>
@@ -139,14 +140,14 @@
 										<span class="input-group-addon">
 											<i class="material-icons">email</i>
 										</span>
-								<input type="email" class="form-control" placeholder="Email...">
+								<input type="email" name="username" class="form-control" placeholder="Email...">
 							</div>
 
 							<div class="input-group">
 										<span class="input-group-addon">
 											<i class="material-icons">lock_outline</i>
 										</span>
-								<input type="password" placeholder="Password..." class="form-control" />
+								<input type="password" name="password" placeholder="Password..." class="form-control" />
 							</div>
 
 							<!-- If you want to add a checkbox to this form, uncomment this code
@@ -160,11 +161,11 @@
 						</div>
 						<div class="footer text-center">
                             <a href="#" class="btn btn-simple btn-sm">Forgot Password</a>
-							<a href="#" class="btn btn-primary btn-lg">Login</a>
+							<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 						</div>
-					</td>
-				</tr></table>
-			</form>
+					</form>
+				</td>
+			</tr></table>
 		</div>
 	</div>
 </div>

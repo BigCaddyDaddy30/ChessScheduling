@@ -22,7 +22,7 @@ $query->execute(array(':username' => $username, ':password' => $password));
 
 
 if($query->rowCount() == 0) {
-    header('Location: login.php?err=1');
+    header('Location: home-page.php?err=1');
 } else {
     $row = $query->fetch(PDO::FETCH_ASSOC);
 
