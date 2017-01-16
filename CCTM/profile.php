@@ -78,7 +78,7 @@ if(!isset($_SESSION['sess_username'])){
         <div class="rTable">
             <div class="rTableRow">
                 <div class="rTableCell"><strong>Name</strong></div>
-                <div class="rTableCell"><?php echo $row['first'] . ' ' $row['last']; ?></div>
+                <div class="rTableCell"><?php echo $row['first'] . ' ' . $row['last']; ?></div>
             </div>
             <div class="rTableRow">
                 <div class="rTableCell"><strong>Score</strong></div>
