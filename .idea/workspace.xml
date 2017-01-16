@@ -76,11 +76,11 @@
         <entry file="file://$PROJECT_DIR$/CCTM/profile.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="92" column="115" lean-forward="true" selection-start-line="92" selection-start-column="115" selection-end-line="92" selection-end-column="115" />
+              <caret line="92" column="110" lean-forward="false" selection-start-line="92" selection-start-column="110" selection-end-line="92" selection-end-column="110" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1484596876000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
+                <marker date="1484596927000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
               </folding>
             </state>
           </provider>
@@ -421,7 +421,7 @@
       <workItem from="1484515702286" duration="4578000" />
       <workItem from="1484520392813" duration="247000" />
       <workItem from="1484521674548" duration="7000" />
-      <workItem from="1484583204788" duration="9648000" />
+      <workItem from="1484583204788" duration="9698000" />
     </task>
     <task id="LOCAL-00001" summary="Testing updates with changing navbar color">
       <created>1484441107364</created>
@@ -619,11 +619,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484596516414</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Making phone number text field editable by user.">
+      <created>1484596891865</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1484596891865</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18831000" />
+    <option name="totallyTimeSpent" value="18881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="6" />
@@ -677,7 +684,8 @@
     <MESSAGE value="Changed column head to Delete User." />
     <MESSAGE value="Tying logic into delete button selection to hide delete button from current user." />
     <MESSAGE value="Making email text field editable by user." />
-    <option name="LAST_COMMIT_MESSAGE" value="Making email text field editable by user." />
+    <MESSAGE value="Making phone number text field editable by user." />
+    <option name="LAST_COMMIT_MESSAGE" value="Making phone number text field editable by user." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -771,7 +779,7 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1484596876000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
+            <marker date="1484596927000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
           </folding>
         </state>
       </provider>
@@ -835,7 +843,7 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1484596876000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
+            <marker date="1484596927000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
           </folding>
         </state>
       </provider>
@@ -958,11 +966,11 @@
     <entry file="file://$PROJECT_DIR$/CCTM/profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="92" column="115" lean-forward="true" selection-start-line="92" selection-start-column="115" selection-end-line="92" selection-end-column="115" />
+          <caret line="92" column="110" lean-forward="false" selection-start-line="92" selection-start-column="110" selection-end-line="92" selection-end-column="110" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1484596876000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
+            <marker date="1484596927000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
           </folding>
         </state>
       </provider>
