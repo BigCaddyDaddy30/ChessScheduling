@@ -75,12 +75,12 @@
       <file leaf-file-name="profile.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CCTM/profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="88" column="78" lean-forward="false" selection-start-line="88" selection-start-column="78" selection-end-line="88" selection-end-column="78" />
+            <state relative-caret-position="360">
+              <caret line="92" column="115" lean-forward="true" selection-start-line="92" selection-start-column="115" selection-end-line="92" selection-end-column="115" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1484596499000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
+                <marker date="1484596876000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
               </folding>
             </state>
           </provider>
@@ -421,7 +421,7 @@
       <workItem from="1484515702286" duration="4578000" />
       <workItem from="1484520392813" duration="247000" />
       <workItem from="1484521674548" duration="7000" />
-      <workItem from="1484583204788" duration="9456000" />
+      <workItem from="1484583204788" duration="9648000" />
     </task>
     <task id="LOCAL-00001" summary="Testing updates with changing navbar color">
       <created>1484441107364</created>
@@ -612,11 +612,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484596386559</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Making email text field editable by user.">
+      <created>1484596516414</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1484596516414</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18639000" />
+    <option name="totallyTimeSpent" value="18831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="6" />
@@ -764,7 +771,7 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1484596499000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
+            <marker date="1484596876000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
           </folding>
         </state>
       </provider>
@@ -828,7 +835,7 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1484596499000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
+            <marker date="1484596876000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
           </folding>
         </state>
       </provider>
@@ -950,12 +957,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CCTM/profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="88" column="78" lean-forward="false" selection-start-line="88" selection-start-column="78" selection-end-line="88" selection-end-column="78" />
+        <state relative-caret-position="360">
+          <caret line="92" column="115" lean-forward="true" selection-start-line="92" selection-start-column="115" selection-end-line="92" selection-end-column="115" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1484596499000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
+            <marker date="1484596876000" expanded="true" signature="2903:2937" ph="SELECT * FRO... members" />
           </folding>
         </state>
       </provider>
