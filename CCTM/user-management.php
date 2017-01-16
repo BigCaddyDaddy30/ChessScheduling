@@ -70,7 +70,7 @@ if(!isset($_SESSION['sess_username'])){
 
             <?php
             require_once('database-config.php');
-            $q = 'SELECT first,last,phone,division,score FROM members 
+            $q = 'SELECT first,last,email,phone,password,division,score,type FROM members 
                     ORDER BY division ASC';
             $stmt = $dbh->query($q);
             ?>
@@ -98,6 +98,7 @@ if(!isset($_SESSION['sess_username'])){
                     echo "  <div class=\"rTableCell\">{$row['password']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['division']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['score']}</div>";
+                    echo "  <div class=\"rTableCell\">{$row['type']}</div>";
                     echo "</div>";
                 }
                 ?>
