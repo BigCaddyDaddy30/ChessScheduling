@@ -4,6 +4,16 @@ $role = $_SESSION['sess_userrole'];
 if(!isset($_SESSION['sess_username'])){
     header('Location: home-page.php?err=2');
 }
+
+if (!empty($_POST['id']) && !empty($_POST['password'])) {
+    require_once('database-config.php');
+    $q = 'UPDATE members SET password=:password WHERE id=:id';
+    $query = $dbh->prepare($q);
+    $query->execute(array(
+        ':id' => $_POST['id'],
+        ':password' => $_POST['password']
+    ));
+}
 ?>
 
 <!doctype html>
@@ -94,10 +104,17 @@ if(!isset($_SESSION['sess_username'])){
                     echo "  <div class=\"rTableCell\">{$row['first']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['last']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['email']}</div>";
+                    echo "  <input type=\"hidden\" name=\"email\" value=\"{$row['email']}\">";
                     echo "  <div class=\"rTableCell\">{$row['phone']}</div>";
 
                     if($_SESSION['sess_userrole'] == 1 ){ ?>
-                        <div class="rTableCell"><input type="text" name="password" value="<?php echo $row['password'];?>"></div>
+                        <div class="rTableCell">
+                        <form method="POST" action="user-management.php">
+                            <input type="hidden" name="id" value="<?php echo $row['id'];?>">
+                            <input type="text" name="password" value="<?php echo $row['password'];?>">
+                            <button class="btn btn-lg btn-primary btn-block" type="submit">Update</button>
+                        </form>
+                        </div>
                     <?php } else {
                         echo " <div class=\"rTableCell\"></div>";
                     }
@@ -129,8 +146,6 @@ if(!isset($_SESSION['sess_username'])){
                     echo "</div>";
                 }
                 ?>
-            </>
-            <a href="#" class="btn btn-primary btn-lg">Update</a>
         </div>
     </div>
 </div>
