@@ -86,7 +86,7 @@ if(!isset($_SESSION['sess_username'])){
             </div>
             <div class="rTableRow">
                 <div class="rTableCell"><strong>Email</strong></div>
-                <div class="rTableCell"><?php echo $row['email']; ?></div>
+                <div class="rTableCell"><input type="text"<?php echo $row['email']; ?>></div>
             </div>
             <div class="rTableRow">
                 <div class="rTableCell"><strong>Phone</strong></div>
