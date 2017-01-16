@@ -98,13 +98,13 @@ if(!isset($_SESSION['sess_username'])){
                     echo "  <div class=\"rTableCell\">{$row['password']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['division']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['score']}</div>"; ?>
-                    <input type="radio" name="<?php echo $row['id']?>"
+                    <div class="rTableCell"></div><input type="radio" name="<?php echo $row['id']?>"
                     <?php if ($row['type'] < 3 ) echo "checked";?> value="yes">Yes
                     <input type="radio" name="<?php echo $row['id']?>"
-                    <?php if ($row['type'] > 2 ) echo "checked";?> value="no">No
+                        <?php if ($row['type'] > 2 ) echo "checked";?> value="no">No</div>
                 <?php
 //                    echo "  <div class=\"rTableCell\">{$row['type']}</div>";
-                    echo "</div>";
+//                    echo "</div>";
                 }
                 ?>
             </div>
