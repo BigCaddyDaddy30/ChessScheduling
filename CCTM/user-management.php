@@ -70,7 +70,7 @@ if(!isset($_SESSION['sess_username'])){
 
             <?php
             require_once('database-config.php');
-            $q = 'SELECT first,last,email,phone,password,division,score,type FROM members 
+            $q = 'SELECT id,first,last,email,phone,password,division,score,type FROM members 
                     ORDER BY division ASC';
             $stmt = $dbh->query($q);
             ?>
@@ -98,9 +98,9 @@ if(!isset($_SESSION['sess_username'])){
                     echo "  <div class=\"rTableCell\">{$row['password']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['division']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['score']}</div>"; ?>
-                    <input type="radio"
+                    <input type="radio" name="<?php echo $row['id']?>"
                     <?php if ($row['type'] < 3 ) echo "checked";?> value="yes">Yes
-                    <input type="radio"
+                    <input type="radio" name="<?php echo $row['id']?>"
                     <?php if ($row['type'] > 2 ) echo "checked";?> value="no">No
                 <?php
 //                    echo "  <div class=\"rTableCell\">{$row['type']}</div>";
