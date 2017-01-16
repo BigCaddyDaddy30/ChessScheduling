@@ -95,7 +95,12 @@ if(!isset($_SESSION['sess_username'])){
                     echo "  <div class=\"rTableCell\">{$row['last']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['email']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['phone']}</div>";
-                    echo "  <div class=\"rTableCell\">{$row['password']}</div>";
+
+                    if($_SESSION['sess_userrole'] == 1 ){
+                        echo " <div class=\"rTableCell\">{$row['password']}</div>";
+                    } else {
+                        echo " <div class=\"rTableCell\"></div>";
+                    }
                     echo "  <div class=\"rTableCell\">{$row['division']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['score']}</div>"; ?>
                     <div class="rTableCell"><input type="radio" name="<?php echo $row['id']?>"
