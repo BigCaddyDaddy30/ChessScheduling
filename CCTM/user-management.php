@@ -68,6 +68,13 @@ if(!isset($_SESSION['sess_username'])){
     <div class="main-raised" style="background-color: white">
         <div class="container" style="padding-top: 50px">
 
+            <?php
+            require_once('database-config.php');
+            $q = 'SELECT first,last,phone,division,score FROM members 
+                    ORDER BY division ASC';
+            $stmt = $dbh->query($q);
+            ?>
+
             <!-- here you can add your content -->
             <div class="rTable">
                 <div class="rTableRow">
@@ -81,6 +88,19 @@ if(!isset($_SESSION['sess_username'])){
                     <div class="rTableHead"><strong>Is Official</strong></div>
                     <div class="rTableHead"><strong>Delete</strong></div>
                 </div>
+                <?php
+                foreach ($stmt as $row) {
+                    echo "<div class=\"rTableRow\">";
+                    echo "  <div class=\"rTableCell\">{$row['first']}</div>";
+                    echo "  <div class=\"rTableCell\">{$row['last']}</div>";
+                    echo "  <div class=\"rTableCell\">{$row['email']}</div>";
+                    echo "  <div class=\"rTableCell\">{$row['phone']}</div>";
+                    echo "  <div class=\"rTableCell\">{$row['password']}</div>";
+                    echo "  <div class=\"rTableCell\">{$row['division']}</div>";
+                    echo "  <div class=\"rTableCell\">{$row['score']}</div>";
+                    echo "</div>";
+                }
+                ?>
             </div>
             <a href="#" class="btn btn-primary btn-lg">Update</a>
         </div>
