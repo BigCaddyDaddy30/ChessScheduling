@@ -1,3 +1,11 @@
+<?php
+session_start();
+$role = $_SESSION['sess_userrole'];
+if(!isset($_SESSION['sess_username'])){
+    header('Location: home-page.php?err=2');
+}
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -45,7 +53,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="profile.php">Profile</a></li>
                         <li><a href="user-management.php">User Management</a></li>
-                        <li><a href="home-page.php">Log Out</a></li>
+                        <li><a href="logout.php">Log Out</a></li>
                     </ul>
             </ul>
         </div>
