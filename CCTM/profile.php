@@ -4,6 +4,17 @@ $role = $_SESSION['sess_userrole'];
 if(!isset($_SESSION['sess_username'])){
     header('Location: home-page.php?err=2');
 }
+
+if (!empty($_POST['email']) && !empty($_POST['phone'])) {
+    require_once('database-config.php');
+    $q = 'UPDATE members SET email=:email,phone=:phone WHERE id=:id';
+    $query = $dbh->prepare($q);
+    $query->execute(array(
+        ':id' => $_SESSION['sess_user_id'],
+        ':email' => $_POST['email'],
+        ':phone' => $_POST['phone']
+    ));
+}
 ?>
 
 <!doctype html>
@@ -75,6 +86,7 @@ if(!isset($_SESSION['sess_username'])){
         $row = $query->fetch(PDO::FETCH_ASSOC);
         ?>
             <!-- here you can add your content -->
+            <form method="POST" action="profile.php">
         <div class="rTable">
             <div class="rTableRow">
                 <div class="rTableCell"><strong>Name</strong></div>
@@ -86,18 +98,19 @@ if(!isset($_SESSION['sess_username'])){
             </div>
             <div class="rTableRow">
                 <div class="rTableCell"><strong>Email</strong></div>
-                <div class="rTableCell"><input type="text" name="myinput" value="<?php echo $row['email'];?>"></div>
+                <div class="rTableCell"><input type="text" name="email" value="<?php echo $row['email'];?>"></div>
             </div>
             <div class="rTableRow">
                 <div class="rTableCell"><strong>Phone</strong></div>
-                <div class="rTableCell"><input type="text" name="myinput" value="<?php echo $row['phone'];?>"></div>
+                <div class="rTableCell"><input type="text" name="phone" value="<?php echo $row['phone'];?>"></div>
             </div>
             <div class="rTableRow">
                 <div class="rTableCell"><strong>Password</strong></div>
                 <div class="rTableCell"><?php echo $row['password']; ?></div>
             </div>
         </div>
-            <a href="#" class="btn btn-primary btn-lg">Update</a>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Update</button>
+            </form>
     </div>
 </div>
 
