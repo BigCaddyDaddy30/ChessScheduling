@@ -63,7 +63,7 @@
 
 			<h1 align="center">Welcome to IPFW Chess Scheduling</h1>
             <h2 align="center"><img src="assets/img/chess/knight.jpg"</img></h2>
-			<form class="form" method="" action="">
+			<form class="form" method="POST" action="register.php">
 				<table align="left"><tr>
 					<td class="signinTD">
 						<div class="header header-primary text-center">
@@ -75,42 +75,42 @@
 										<span class="input-group-addon">
 											<i class="material-icons">face</i>
 										</span>
-								<input type="text" class="form-control" placeholder="First Name...">
+								<input type="text" name="first" class="form-control" placeholder="First Name...">
 							</div>
 
 							<div class="input-group">
 										<span class="input-group-addon">
 											<i class="material-icons">face</i>
 										</span>
-								<input type="text" class="form-control" placeholder="Last Name...">
+								<input type="text" name="last" class="form-control" placeholder="Last Name...">
 							</div>
 
 							<div class="input-group">
 										<span class="input-group-addon">
 											<i class="material-icons">email</i>
 										</span>
-								<input type="email" class="form-control" placeholder="Email...">
+								<input type="email" name="username" class="form-control" placeholder="Email...">
 							</div>
 
 							<div class="input-group">
 										<span class="input-group-addon">
 											<i class="material-icons">phone</i>
 										</span>
-								<input type="number" class="form-control" minlength="10" maxlength="10" placeholder="Phone Number...">
+								<input type="number" name="phone" class="form-control" minlength="10" maxlength="10" placeholder="Phone Number...">
 							</div>
 
 							<div class="input-group">
 										<span class="input-group-addon">
 											<i class="material-icons">lock_outline</i>
 										</span>
-								<input type="password" placeholder="Password..." class="form-control" />
+								<input type="password" name="password" placeholder="Password..." class="form-control" />
 							</div>
 
 							<div class="input-group">
 										<span class="input-group-addon">
 											<i class="material-icons">lock_outline</i>
 										</span>
-								<input type="password" placeholder="Re-Enter Password..." class="form-control" />
+								<input type="password" name="confirm_pass" placeholder="Re-Enter Password..." class="form-control" />
 							</div>
 
 							<!-- If you want to add a checkbox to this form, uncomment this code
@@ -123,7 +123,7 @@
                             </div> -->
 						</div>
 						<div class="footer text-center">
-							<a href="#" class="btn btn-primary btn-lg">Register</a>
+							<button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
 						</div>
 					</td>
                     </tr></table>
