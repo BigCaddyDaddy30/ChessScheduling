@@ -139,7 +139,7 @@ if (!empty($_POST['id']) && !empty($_POST['password'])) {
                         <div class="rTableCell">
                             <?php if($_SESSION['sess_userrole'] < 3) {?>
                             <form method="POST" action="delete-user.php">
-                                <input type="hidden" name="id" value="<?php echo $row['id']; ?>"
+                                <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
                                 <button class="btn btn-primary" type="submit">Delete</button>
                             </form>
                             <?php } ?>
