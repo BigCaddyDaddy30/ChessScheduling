@@ -104,7 +104,7 @@ if(!isset($_SESSION['sess_username'])){
                         <?php if ($row['type'] > 2 ) echo "checked";?> value="no">No</div>
                 <?php
 //                    echo "  <div class=\"rTableCell\">{$row['type']}</div>";
-//                    echo "</div>";
+                    echo "</div>";
                 }
                 ?>
             </div>
