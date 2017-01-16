@@ -7,12 +7,12 @@ require_once('database-config.php');
 // also fails if password does not match confirm_pass
 // also fails if email already exists inside the database
 
-if (isset($_POST['first'])
-    && isset($_POST['last'])
-    && isset($_POST['phone'])
-    && isset($_POST['username'])
-    && isset($_POST['password']) 
-    && isset($_POST['confirm_pass']) 
+if (!empty($_POST['first'])
+    && !empty($_POST['last'])
+    && !empty($_POST['phone'])
+    && !empty($_POST['username'])
+    && !empty($_POST['password']) 
+    && !empty($_POST['confirm_pass']) 
     && $_POST['password'] == $_POST['confirm_pass']) {
     
     // check if user with email already exists
