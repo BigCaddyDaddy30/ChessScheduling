@@ -102,11 +102,17 @@ if(!isset($_SESSION['sess_username'])){
                         echo " <div class=\"rTableCell\"></div>";
                     }
                     echo "  <div class=\"rTableCell\">{$row['division']}</div>";
-                    echo "  <div class=\"rTableCell\">{$row['score']}</div>"; ?>
-                    <div class="rTableCell"><input type="radio" name="<?php echo $row['id']?>"
+                    echo "  <div class=\"rTableCell\">{$row['score']}</div>";?>
+                    <?php if($_SESSION['sess_userrole'] == 1)?>{
+                        <div class="rTableCell"><input type="radio" name="<?php echo $row['id']?>"
                     <?php if ($row['type'] < 3 ) echo "checked";?> value="yes">Yes
                     <input type="radio" name="<?php echo $row['id']?>"
                         <?php if ($row['type'] > 2 ) echo "checked";?> value="no">No</div>
+                    } else {
+                        <?php if ($row['type'] < 3 ) echo "Yes";?>
+                        <?php if ($row['type'] > 2 ) echo "No";?>
+                    } ?>
+
                     <?php
                     if($_SESSION['sess_username'] == $row['email']){
                         echo " <div class=\"rTableCell\"></div>";
@@ -119,7 +125,7 @@ if(!isset($_SESSION['sess_username'])){
                     echo "</div>";
                 }
                 ?>
-            </div>
+            </>
             <a href="#" class="btn btn-primary btn-lg">Update</a>
         </div>
     </div>
