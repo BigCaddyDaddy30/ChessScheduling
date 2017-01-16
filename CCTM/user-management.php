@@ -103,14 +103,14 @@ if(!isset($_SESSION['sess_username'])){
                     }
                     echo "  <div class=\"rTableCell\">{$row['division']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['score']}</div>";?>
-                    <?php if($_SESSION['sess_userrole'] == 1)?>{
+                    <?php if($_SESSION['sess_userrole'] == 1) { ?>
                         <div class="rTableCell"><input type="radio" name="<?php echo $row['id']?>"
                     <?php if ($row['type'] < 3 ) echo "checked";?> value="yes">Yes
                     <input type="radio" name="<?php echo $row['id']?>"
                         <?php if ($row['type'] > 2 ) echo "checked";?> value="no">No</div>
-                    } else {
-                        <?php if ($row['type'] < 3 ) echo "Yes";?>
-                        <?php if ($row['type'] > 2 ) echo "No";?>
+                    <?php } else {
+                        if ($row['type'] < 3 ) echo "Yes";
+                        if ($row['type'] > 2 ) echo "No";
                     } ?>
 
                     <?php

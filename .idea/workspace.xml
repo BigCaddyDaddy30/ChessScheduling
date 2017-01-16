@@ -50,11 +50,11 @@
       <file leaf-file-name="user-management.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CCTM/user-management.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="111" column="66" lean-forward="false" selection-start-line="111" selection-start-column="66" selection-end-line="111" selection-end-column="66" />
+            <state relative-caret-position="364">
+              <caret line="112" column="57" lean-forward="false" selection-start-line="112" selection-start-column="57" selection-end-line="112" selection-end-column="57" />
               <folding>
-                <marker date="1484599904000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-                <marker date="1484599904000" expanded="true" signature="5776:5801" ph="..." />
+                <marker date="1484600365000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+                <marker date="1484600365000" expanded="true" signature="5768:5793" ph="..." />
               </folding>
             </state>
           </provider>
@@ -422,7 +422,7 @@
       <workItem from="1484515702286" duration="4578000" />
       <workItem from="1484520392813" duration="247000" />
       <workItem from="1484521674548" duration="7000" />
-      <workItem from="1484583204788" duration="11957000" />
+      <workItem from="1484583204788" duration="12402000" />
     </task>
     <task id="LOCAL-00001" summary="Testing updates with changing navbar color">
       <created>1484441107364</created>
@@ -641,22 +641,29 @@
       <option name="project" value="LOCAL" />
       <updated>1484598912511</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Making isOfficial radio buttons only available to Administrators, otherwise, they see a Yes or No if the user is an Official.">
+      <created>1484599953988</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1484599953988</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21140000" />
+    <option name="totallyTimeSpent" value="21585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18055555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18276763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18276763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -701,7 +708,8 @@
     <MESSAGE value="Making email text field editable by user." />
     <MESSAGE value="Making phone number text field editable by user." />
     <MESSAGE value="Making passwords only visable to Administrators." />
-    <option name="LAST_COMMIT_MESSAGE" value="Making passwords only visable to Administrators." />
+    <MESSAGE value="Making isOfficial radio buttons only available to Administrators, otherwise, they see a Yes or No if the user is an Official." />
+    <option name="LAST_COMMIT_MESSAGE" value="Making isOfficial radio buttons only available to Administrators, otherwise, they see a Yes or No if the user is an Official." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -721,8 +729,8 @@
         <state relative-caret-position="1125">
           <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="76" selection-end-column="65" />
           <folding>
-            <marker date="1484599904000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484599904000" expanded="true" signature="5776:5801" ph="..." />
+            <marker date="1484600365000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+            <marker date="1484600365000" expanded="true" signature="5768:5793" ph="..." />
           </folding>
         </state>
       </provider>
@@ -761,8 +769,8 @@
         <state relative-caret-position="1125">
           <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="76" selection-end-column="65" />
           <folding>
-            <marker date="1484599904000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484599904000" expanded="true" signature="5776:5801" ph="..." />
+            <marker date="1484600365000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+            <marker date="1484600365000" expanded="true" signature="5768:5793" ph="..." />
           </folding>
         </state>
       </provider>
@@ -825,8 +833,8 @@
         <state relative-caret-position="833">
           <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding>
-            <marker date="1484599904000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484599904000" expanded="true" signature="5776:5801" ph="..." />
+            <marker date="1484600365000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+            <marker date="1484600365000" expanded="true" signature="5768:5793" ph="..." />
           </folding>
         </state>
       </provider>
@@ -982,11 +990,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CCTM/user-management.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="111" column="66" lean-forward="false" selection-start-line="111" selection-start-column="66" selection-end-line="111" selection-end-column="66" />
+        <state relative-caret-position="364">
+          <caret line="112" column="57" lean-forward="false" selection-start-line="112" selection-start-column="57" selection-end-line="112" selection-end-column="57" />
           <folding>
-            <marker date="1484599904000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484599904000" expanded="true" signature="5776:5801" ph="..." />
+            <marker date="1484600365000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
+            <marker date="1484600365000" expanded="true" signature="5768:5793" ph="..." />
           </folding>
         </state>
       </provider>
