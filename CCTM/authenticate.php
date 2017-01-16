@@ -13,7 +13,6 @@ if(isset($_POST['username'])) {
 if (isset($_POST['password'])) {
     $password = $_POST['password'];
 }
- 
 
 $q = 'SELECT * FROM users WHERE email=:username AND password=:password';
 
@@ -23,7 +22,7 @@ $query->execute(array(':username' => $username, ':password' => $password));
 
 
 if($query->rowCount() == 0) {
-    header('Location: home-page.php?err=1');
+    header('Location: login.php?err=1' . "&{$_POST['username']}");
 } else {
     $row = $query->fetch(PDO::FETCH_ASSOC);
 
