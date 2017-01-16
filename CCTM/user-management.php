@@ -86,7 +86,7 @@ if(!isset($_SESSION['sess_username'])){
                     <div class="rTableHead"><strong>Division</strong></div>
                     <div class="rTableHead"><strong>Score</strong></div>
                     <div class="rTableHead"><strong>Is Official</strong></div>
-                    <div class="rTableHead"><strong>Delete</strong></div>
+                    <div class="rTableHead"><strong>Delete User</strong></div>
                 </div>
                 <?php
                 foreach ($stmt as $row) {
