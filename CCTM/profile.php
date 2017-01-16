@@ -67,7 +67,7 @@ if(!isset($_SESSION['sess_username'])){
     <div class="main-raised" style="background-color: white">
         <div class="container" style="padding-top: 50px">
         <?php 
-        require_once(database-config.php);
+        require_once('database-config.php');
         $q = 'SELECT * FROM members WHERE id=:id';
         $query = $dbh->prepare($q);
         $query->execute(array(':id' => $_SESSION['sess_user_id']));
