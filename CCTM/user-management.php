@@ -101,24 +101,73 @@ if (!empty($_POST['id']) && !empty($_POST['password'])) {
                 <?php
                 foreach ($stmt as $row) {
                     echo "<div class=\"rTableRow\">";
-                    echo "  <div class=\"rTableCell\">{$row['first']}</div>";
-                    echo "  <div class=\"rTableCell\">{$row['last']}</div>";
-                    echo "  <div class=\"rTableCell\">{$row['email']}</div>";
-                    echo "  <input type=\"hidden\" name=\"email\" value=\"{$row['email']}\">";
-                    echo "  <div class=\"rTableCell\">{$row['phone']}</div>";
-
                     if($_SESSION['sess_userrole'] == 1 ){ ?>
                         <div class="rTableCell">
-                        <form method="POST" action="user-management.php">
-                            <input type="hidden" name="id" value="<?php echo $row['id'];?>">
-                            <input type="text" name="password" value="<?php echo $row['password'];?>">
-                            <button class="btn btn-primary" type="submit">Update</button>
-                        </form>
+                            <form method="POST" action="user-management.php">
+                                <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
+                                <input type="text" name="password" class="form-control" value="<?php echo $row['first'];?>">
+                                <button class="btn btn-primary" type="submit">Update</button>
+                            </form>
+                        </div>
+                    <?php } else {
+                        echo "  <div class=\"rTableCell\">{$row['first']}</div>";
+                    }
+                    if($_SESSION['sess_userrole'] == 1 ){ ?>
+                        <div class="rTableCell">
+                            <form method="POST" action="user-management.php">
+                                <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
+                                <input type="text" name="password" class="form-control" value="<?php echo $row['last'];?>">
+                                <button class="btn btn-primary" type="submit">Update</button>
+                            </form>
+                        </div>
+                    <?php } else {
+                        echo "  <div class=\"rTableCell\">{$row['last']}</div>";
+                    }
+                    if($_SESSION['sess_userrole'] == 1 ){ ?>
+                        <div class="rTableCell">
+                            <form method="POST" action="user-management.php">
+                                <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
+                                <input type="email" name="password" class="form-control" value="<?php echo $row['email'];?>">
+                                <button class="btn btn-primary" type="submit">Update</button>
+                            </form>
+                        </div>
+                    <?php } else {
+                        echo "  <div class=\"rTableCell\">{$row['email']}</div>";
+                    }
+                    echo "  <input type=\"hidden\" name=\"email\" value=\"{$row['email']}\">";
+                    if($_SESSION['sess_userrole'] == 1 ){ ?>
+                        <div class="rTableCell">
+                            <form method="POST" action="user-management.php">
+                                <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
+                                <input type="number" name="password" class="form-control" value="<?php echo $row['password'];?>">
+                                <button class="btn btn-primary" type="submit">Update</button>
+                            </form>
+                        </div>
+                    <?php } else {
+                        echo "  <div class=\"rTableCell\">{$row['phone']}</div>";
+                    }
+                    if($_SESSION['sess_userrole'] == 1 ){ ?>
+                        <div class="rTableCell">
+                            <form method="POST" action="user-management.php">
+                                <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
+                                <input type="text" name="password" class="form-control" value="<?php echo $row['password'];?>">
+                                <button class="btn btn-primary" type="submit">Update</button>
+                            </form>
                         </div>
                     <?php } else {
                         echo " <div class=\"rTableCell\"></div>";
                     }
-                    echo "  <div class=\"rTableCell\">{$row['division']}</div>";
+                    if($_SESSION['sess_userrole'] < 3 ){ ?>
+                        <div class="rTableCell">
+                            <form method="POST" action="user-management.php">
+                                <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
+                                <input type="number" name="password" class="form-control" value="<?php echo $row['division'];?>">
+                                <button class="btn btn-primary" type="submit">Update</button>
+                            </form>
+                        </div>
+                    <?php } else {
+                        echo "  <div class=\"rTableCell\">{$row['division']}</div>";
+                    }
                     echo "  <div class=\"rTableCell\">{$row['score']}</div>";?>
                     <?php if($_SESSION['sess_userrole'] == 1 && $row['type'] != 1) { ?>
                         <div class="rTableCell"><input type="radio" name="<?php echo $row['id']?>"
