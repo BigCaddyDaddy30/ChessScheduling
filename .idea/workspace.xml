@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="041081d1-3a54-4869-aa17-046b6797c17f" name="Default" comment="">
+    <list default="true" id="041081d1-3a54-4869-aa17-046b6797c17f" name="Default" comment="Making editable password field for Administrator.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CCTM/profile.php" afterPath="$PROJECT_DIR$/CCTM/profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CCTM/rankings.php" afterPath="$PROJECT_DIR$/CCTM/rankings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CCTM/schedule.php" afterPath="$PROJECT_DIR$/CCTM/schedule.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CCTM/user-management.php" afterPath="$PROJECT_DIR$/CCTM/user-management.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,6 +21,14 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="ChessScheduling" />
@@ -27,7 +38,7 @@
       <file leaf-file-name="material-kit.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CCTM/assets/css/material-kit.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56685">
+            <state relative-caret-position="64243">
               <caret line="3779" column="20" lean-forward="false" selection-start-line="3779" selection-start-column="20" selection-end-line="3779" selection-end-column="20" />
               <folding />
             </state>
@@ -37,24 +48,21 @@
       <file leaf-file-name="home-page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CCTM/home-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="47" column="65" lean-forward="false" selection-start-line="47" selection-start-column="65" selection-end-line="47" selection-end-column="65" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="84" column="111" lean-forward="false" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="111" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user-management.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user-management.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CCTM/user-management.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="99" column="128" lean-forward="false" selection-start-line="99" selection-start-column="128" selection-end-line="99" selection-end-column="128" />
+            <state relative-caret-position="527">
+              <caret line="52" column="104" lean-forward="false" selection-start-line="52" selection-start-column="104" selection-end-line="52" selection-end-column="104" />
               <folding>
-                <marker date="1484604551000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-                <marker date="1484604551000" expanded="true" signature="6032:6057" ph="..." />
+                <marker date="1484685145688" expanded="true" signature="256:306" ph="UPDATE membe... " />
+                <marker date="1484685145688" expanded="true" signature="3265:3382" ph="SELECT id,fi... " />
               </folding>
             </state>
           </provider>
@@ -63,10 +71,10 @@
       <file leaf-file-name="rankings.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CCTM/rankings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="89" column="77" lean-forward="true" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
+            <state relative-caret-position="625">
+              <caret line="42" column="104" lean-forward="false" selection-start-line="42" selection-start-column="104" selection-end-line="42" selection-end-column="104" />
               <folding>
-                <marker date="1484587236000" expanded="true" signature="2887:3034" ph="SELECT first... " />
+                <marker date="1484685145624" expanded="true" signature="2931:3078" ph="SELECT first... " />
               </folding>
             </state>
           </provider>
@@ -75,27 +83,23 @@
       <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CCTM/profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="104" column="108" lean-forward="false" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="108" />
+            <state relative-caret-position="1258">
+              <caret line="92" column="55" lean-forward="false" selection-start-line="92" selection-start-column="51" selection-end-line="92" selection-end-column="55" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1484602600000" expanded="true" signature="256:313" ph="UPDATE membe... " />
-                <marker date="1484602600000" expanded="true" signature="3259:3293" ph="SELECT * FRO... members" />
+                <marker date="1484685145754" expanded="true" signature="256:313" ph="UPDATE membe... " />
+                <marker date="1484685145754" expanded="true" signature="3303:3337" ph="SELECT * FRO... members" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schedule.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="schedule.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CCTM/schedule.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="523">
+              <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1484587739000" expanded="true" signature="2942:3081" ph="SELECT game,... schedule" />
+                <marker date="1484691979601" expanded="true" signature="2942:3081" ph="SELECT game,... schedule" />
               </folding>
             </state>
           </provider>
@@ -138,10 +142,10 @@
         <option value="$PROJECT_DIR$/CCTM/schedule.html" />
         <option value="$PROJECT_DIR$/CCTM/assets/css/material-kit.css" />
         <option value="$PROJECT_DIR$/CCTM/home-page.php" />
-        <option value="$PROJECT_DIR$/CCTM/rankings.php" />
-        <option value="$PROJECT_DIR$/CCTM/schedule.php" />
-        <option value="$PROJECT_DIR$/CCTM/profile.php" />
         <option value="$PROJECT_DIR$/CCTM/user-management.php" />
+        <option value="$PROJECT_DIR$/CCTM/rankings.php" />
+        <option value="$PROJECT_DIR$/CCTM/profile.php" />
+        <option value="$PROJECT_DIR$/CCTM/schedule.php" />
       </list>
     </option>
   </component>
@@ -153,9 +157,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="835" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -245,8 +250,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php-7.0.14-Win32-VC14-x64/php.exe" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -270,7 +275,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/CCTM/profile.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/CCTM/schedule.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -278,6 +283,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/CCTM/add-game.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -444,6 +450,8 @@
       <workItem from="1484520392813" duration="247000" />
       <workItem from="1484521674548" duration="7000" />
       <workItem from="1484583204788" duration="16229000" />
+      <workItem from="1484684490877" duration="764000" />
+      <workItem from="1484690018041" duration="1415000" />
     </task>
     <task id="LOCAL-00001" summary="Testing updates with changing navbar color">
       <created>1484441107364</created>
@@ -715,18 +723,27 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25412000" />
+    <option name="totallyTimeSpent" value="27591000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="835" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18055555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.160625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18276763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12382739" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -783,6 +800,122 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CCTM/assets/css/material-kit.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64243">
+          <caret line="3779" column="20" lean-forward="false" selection-start-line="3779" selection-start-column="20" selection-end-line="3779" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCTM/home-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCTM/user-management.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="104" lean-forward="false" selection-start-line="52" selection-start-column="104" selection-end-line="52" selection-end-column="104" />
+          <folding>
+            <marker date="1484685145688" expanded="true" signature="256:306" ph="UPDATE membe... " />
+            <marker date="1484685145688" expanded="true" signature="3265:3382" ph="SELECT id,fi... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCTM/rankings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="104" lean-forward="false" selection-start-line="42" selection-start-column="104" selection-end-line="42" selection-end-column="104" />
+          <folding>
+            <marker date="1484685145624" expanded="true" signature="2931:3078" ph="SELECT first... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCTM/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="82" lean-forward="true" selection-start-line="65" selection-start-column="82" selection-end-line="65" selection-end-column="82" />
+          <folding>
+            <marker date="1484685145754" expanded="true" signature="256:313" ph="UPDATE membe... " />
+            <marker date="1484685145754" expanded="true" signature="3303:3337" ph="SELECT * FRO... members" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCTM/schedule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="60" lean-forward="false" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="104" />
+          <folding>
+            <marker date="1484691979601" expanded="true" signature="2942:3081" ph="SELECT game,... schedule" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCTM/assets/css/material-kit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64243">
+          <caret line="3779" column="20" lean-forward="false" selection-start-line="3779" selection-start-column="20" selection-end-line="3779" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCTM/home-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="65" lean-forward="false" selection-start-line="47" selection-start-column="65" selection-end-line="47" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCTM/user-management.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484685145688" expanded="true" signature="256:306" ph="UPDATE membe... " />
+            <marker date="1484685145688" expanded="true" signature="3265:3382" ph="SELECT id,fi... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCTM/rankings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="77" lean-forward="true" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
+          <folding>
+            <marker date="1484685145624" expanded="true" signature="2931:3078" ph="SELECT first... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCTM/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="104" column="108" lean-forward="false" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="108" />
+          <folding>
+            <marker date="1484685145754" expanded="true" signature="256:313" ph="UPDATE membe... " />
+            <marker date="1484685145754" expanded="true" signature="3303:3337" ph="SELECT * FRO... members" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCTM/schedule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding>
+            <marker date="1484691979601" expanded="true" signature="2942:3081" ph="SELECT game,... schedule" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCTM/assets/css/material-kit.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -794,8 +927,8 @@
         <state relative-caret-position="1125">
           <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="76" selection-end-column="65" />
           <folding>
-            <marker date="1484604551000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484604551000" expanded="true" signature="6032:6057" ph="..." />
+            <marker date="1484685145688" expanded="true" signature="256:306" ph="UPDATE membe... " />
+            <marker date="1484685145688" expanded="true" signature="3265:3382" ph="SELECT id,fi... " />
           </folding>
         </state>
       </provider>
@@ -804,10 +937,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="68" lean-forward="false" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -816,7 +946,7 @@
         <state relative-caret-position="690">
           <caret line="46" column="82" lean-forward="true" selection-start-line="46" selection-start-column="82" selection-end-line="47" selection-end-column="68" />
           <folding>
-            <marker date="1484587236000" expanded="true" signature="2887:3034" ph="SELECT first... " />
+            <marker date="1484685145624" expanded="true" signature="2931:3078" ph="SELECT first... " />
           </folding>
         </state>
       </provider>
@@ -834,8 +964,8 @@
         <state relative-caret-position="1125">
           <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="76" selection-end-column="65" />
           <folding>
-            <marker date="1484604551000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484604551000" expanded="true" signature="6032:6057" ph="..." />
+            <marker date="1484685145688" expanded="true" signature="256:306" ph="UPDATE membe... " />
+            <marker date="1484685145688" expanded="true" signature="3265:3382" ph="SELECT id,fi... " />
           </folding>
         </state>
       </provider>
@@ -844,10 +974,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="68" lean-forward="false" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +983,7 @@
         <state relative-caret-position="690">
           <caret line="46" column="82" lean-forward="true" selection-start-line="46" selection-start-column="82" selection-end-line="47" selection-end-column="68" />
           <folding>
-            <marker date="1484587236000" expanded="true" signature="2887:3034" ph="SELECT first... " />
+            <marker date="1484685145624" expanded="true" signature="2931:3078" ph="SELECT first... " />
           </folding>
         </state>
       </provider>
@@ -866,10 +993,8 @@
         <state relative-caret-position="915">
           <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1484602600000" expanded="true" signature="256:313" ph="UPDATE membe... " />
-            <marker date="1484602600000" expanded="true" signature="3259:3293" ph="SELECT * FRO... members" />
+            <marker date="1484685145754" expanded="true" signature="256:313" ph="UPDATE membe... " />
+            <marker date="1484685145754" expanded="true" signature="3303:3337" ph="SELECT * FRO... members" />
           </folding>
         </state>
       </provider>
@@ -879,9 +1004,7 @@
         <state relative-caret-position="675">
           <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1484587739000" expanded="true" signature="2942:3081" ph="SELECT game,... schedule" />
+            <marker date="1484691979601" expanded="true" signature="2942:3081" ph="SELECT game,... schedule" />
           </folding>
         </state>
       </provider>
@@ -899,8 +1022,8 @@
         <state relative-caret-position="833">
           <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding>
-            <marker date="1484604551000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484604551000" expanded="true" signature="6032:6057" ph="..." />
+            <marker date="1484685145688" expanded="true" signature="256:306" ph="UPDATE membe... " />
+            <marker date="1484685145688" expanded="true" signature="3265:3382" ph="SELECT id,fi... " />
           </folding>
         </state>
       </provider>
@@ -909,10 +1032,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" column="68" lean-forward="false" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -921,7 +1041,7 @@
         <state relative-caret-position="799">
           <caret line="47" column="68" lean-forward="true" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
           <folding>
-            <marker date="1484587236000" expanded="true" signature="2887:3034" ph="SELECT first... " />
+            <marker date="1484685145624" expanded="true" signature="2931:3078" ph="SELECT first... " />
           </folding>
         </state>
       </provider>
@@ -931,10 +1051,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1484602600000" expanded="true" signature="256:313" ph="UPDATE membe... " />
-            <marker date="1484602600000" expanded="true" signature="3259:3293" ph="SELECT * FRO... members" />
+            <marker date="1484685145754" expanded="true" signature="256:313" ph="UPDATE membe... " />
+            <marker date="1484685145754" expanded="true" signature="3303:3337" ph="SELECT * FRO... members" />
           </folding>
         </state>
       </provider>
@@ -944,9 +1062,7 @@
         <state relative-caret-position="765">
           <caret line="45" column="66" lean-forward="true" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1484587739000" expanded="true" signature="2942:3081" ph="SELECT game,... schedule" />
+            <marker date="1484691979601" expanded="true" signature="2942:3081" ph="SELECT game,... schedule" />
           </folding>
         </state>
       </provider>
@@ -1004,65 +1120,58 @@
     <entry file="file://$PROJECT_DIR$/CCTM/schedule.html" />
     <entry file="file://$PROJECT_DIR$/CCTM/assets/css/material-kit.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56685">
+        <state relative-caret-position="64243">
           <caret line="3779" column="20" lean-forward="false" selection-start-line="3779" selection-start-column="20" selection-end-line="3779" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CCTM/schedule.php">
+    <entry file="file://$PROJECT_DIR$/CCTM/profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="1258">
+          <caret line="92" column="55" lean-forward="false" selection-start-line="92" selection-start-column="51" selection-end-line="92" selection-end-column="55" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1484587739000" expanded="true" signature="2942:3081" ph="SELECT game,... schedule" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CCTM/home-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="47" column="65" lean-forward="false" selection-start-line="47" selection-start-column="65" selection-end-line="47" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1484685145754" expanded="true" signature="256:313" ph="UPDATE membe... " />
+            <marker date="1484685145754" expanded="true" signature="3303:3337" ph="SELECT * FRO... members" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CCTM/rankings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="89" column="77" lean-forward="true" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
+        <state relative-caret-position="625">
+          <caret line="42" column="104" lean-forward="false" selection-start-line="42" selection-start-column="104" selection-end-line="42" selection-end-column="104" />
           <folding>
-            <marker date="1484587236000" expanded="true" signature="2887:3034" ph="SELECT first... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CCTM/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="104" column="108" lean-forward="false" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="108" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1484602600000" expanded="true" signature="256:313" ph="UPDATE membe... " />
-            <marker date="1484602600000" expanded="true" signature="3259:3293" ph="SELECT * FRO... members" />
+            <marker date="1484685145624" expanded="true" signature="2931:3078" ph="SELECT first... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CCTM/user-management.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="99" column="128" lean-forward="false" selection-start-line="99" selection-start-column="128" selection-end-line="99" selection-end-column="128" />
+        <state relative-caret-position="527">
+          <caret line="52" column="104" lean-forward="false" selection-start-line="52" selection-start-column="104" selection-end-line="52" selection-end-column="104" />
           <folding>
-            <marker date="1484604551000" expanded="true" signature="2916:3033" ph="SELECT id,fi... " />
-            <marker date="1484604551000" expanded="true" signature="6032:6057" ph="..." />
+            <marker date="1484685145688" expanded="true" signature="256:306" ph="UPDATE membe... " />
+            <marker date="1484685145688" expanded="true" signature="3265:3382" ph="SELECT id,fi... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCTM/home-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="84" column="111" lean-forward="false" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCTM/schedule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          <folding>
+            <marker date="1484691979601" expanded="true" signature="2942:3081" ph="SELECT game,... schedule" />
           </folding>
         </state>
       </provider>
