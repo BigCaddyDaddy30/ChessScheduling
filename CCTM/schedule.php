@@ -76,6 +76,25 @@ if(!isset($_SESSION['sess_username'])){
             $query->execute();
             ?>
             <!-- here you can add your content -->
+            <?php if($_SESSION['sess_userrole'] < 3){ ?>
+                <div class="rTable">
+                <div class="rTableHead"><strong>Division</strong></div>
+                    <div class="rTableHead"><strong>Week</strong></div>
+                    <div class="rTableHead"><strong>Player 1</strong></div>
+                    <div class="rTableHead"><strong>Player 2</strong></div>
+                </div>
+                <div class="rTableRow">
+                <form method="POST" action="add-game.php">
+                    <input type="text" name="input_division" value="">
+                    <input type="text" name="input_week" value="">
+                    <input type="text" name="input_player1" value="">
+                    <input type="text" name="input_player2" value="">
+                    <button class="btn btn-primary" type="submit">Add Game</button>
+                </form>
+                </div>
+            </div>
+            <?php } ?>
+                
             <div class="rTable">
                 <div class="rTableRow">
                     <div class="rTableHead"><strong>Division</strong></div>
