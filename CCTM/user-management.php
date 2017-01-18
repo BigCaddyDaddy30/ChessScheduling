@@ -21,7 +21,7 @@ if (!empty($_POST['id']) && !empty($_POST['password'])) {
 <head>
     <meta charset="utf-8" />
     <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="assets/img/chess/Knight.png">
+    <link rel="icon" type="image/png" href="assets/img/chess/knight.jpg">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
     <title>IPFW Chess Club - User Management</title>
@@ -139,7 +139,7 @@ if (!empty($_POST['id']) && !empty($_POST['password'])) {
                         <div class="rTableCell">
                             <form method="POST" action="user-management.php">
                                 <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
-                                <input type="number" name="phone" class="form-control" value="<?php echo $row['phone'];?>">
+                                <input type="text" name="phone" class="form-control" value="<?php echo $row['phone'];?>">
                                 <button class="btn btn-primary" type="submit">Update</button>
                             </form>
                         </div>
@@ -161,7 +161,7 @@ if (!empty($_POST['id']) && !empty($_POST['password'])) {
                         <div class="rTableCell">
                             <form method="POST" action="user-management.php">
                                 <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
-                                <input type="number" name="password" class="form-control" value="<?php echo $row['division'];?>">
+                                <input type="text" name="password" class="form-control" value="<?php echo $row['division'];?>">
                                 <button class="btn btn-primary" type="submit">Update</button>
                             </form>
                         </div>
@@ -170,7 +170,7 @@ if (!empty($_POST['id']) && !empty($_POST['password'])) {
                     }
                     echo "  <div class=\"rTableCell\">{$row['score']}</div>";?>
                     <?php if($_SESSION['sess_userrole'] == 1 && $row['type'] != 1) { ?>
-                        <div class="rTableCell"><input type="radio" name="<?php echo $row['id']?>"
+                        <div class="rTableCell" style="min-width: 100px"><input type="radio" name="<?php echo $row['id']?>"
                     <?php if ($row['type'] < 3 ) echo "checked";?> value="yes">Yes
                     <input type="radio" name="<?php echo $row['id']?>"
                         <?php if ($row['type'] > 2 ) echo "checked";?> value="no">No</div>
