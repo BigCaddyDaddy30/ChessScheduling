@@ -71,7 +71,7 @@ if(!isset($_SESSION['sess_username'])){
             <?php 
             require('database-config.php');
             $q = 'SELECT game,division,week,player1,player1_points,player2,player2_points FROM schedule 
-                    ORDER BY division ASC, week DESC';
+                    ORDER BY division ASC, week ASC';
             $query = $dbh->prepare($q);
             $query->execute();
             ?>
