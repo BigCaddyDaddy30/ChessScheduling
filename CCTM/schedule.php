@@ -103,7 +103,7 @@ if(!isset($_SESSION['sess_username'])){
                             </form>
                         </div>
                     <?php } else {
-                        echo "  <div class=\"rTableCell\">number_format({$row['player1_points']},1)</div>";
+                        echo "  <div class=\"rTableCell\">{$row['player1_points']}</div>";
                     }
                     echo "  <div class=\"rTableCell\">{$row['player2']}</div>";
                     #echo "  <div class=\"rTableCell\">{$row['player2_points']}</div>";
@@ -116,7 +116,7 @@ if(!isset($_SESSION['sess_username'])){
                             </form>
                         </div>
                     <?php } else {
-                        echo "  <div class=\"rTableCell\">number_format({$row['player2_points']},1)</div>";
+                        echo "  <div class=\"rTableCell\">{$row['player2_points']}</div>";
                     }
                     echo "</div>";
                 }
