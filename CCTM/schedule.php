@@ -93,9 +93,31 @@ if(!isset($_SESSION['sess_username'])){
                     echo "  <div class=\"rTableCell\">{$row['division']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['week']}</div>";
                     echo "  <div class=\"rTableCell\">{$row['player1']}</div>";
-                    echo "  <div class=\"rTableCell\">{$row['player1_points']}</div>";
+                    #echo "  <div class=\"rTableCell\">{$row['player1_points']}</div>";
+                    if($_SESSION['sess_userrole'] < 3 ){ ?>
+                        <div class="rTableCell">
+                            <form method="POST" action="schedule.php">
+                                <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
+                                <input type="float" name="player1_points" class="form-control" value="<?php echo number_format($row['player1_points'],1);?>">
+                                <button class="btn btn-primary" type="submit">Update</button>
+                            </form>
+                        </div>
+                    <?php } else {
+                        echo "  <div class=\"rTableCell\">number_format({$row['player1_points']},1)</div>";
+                    }
                     echo "  <div class=\"rTableCell\">{$row['player2']}</div>";
-                    echo "  <div class=\"rTableCell\">{$row['player2_points']}</div>";
+                    #echo "  <div class=\"rTableCell\">{$row['player2_points']}</div>";
+                    if($_SESSION['sess_userrole'] < 3 ){ ?>
+                        <div class="rTableCell">
+                            <form method="POST" action="schedule.php">
+                                <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
+                                <input type="float" name="player2_points" class="form-control" value="<?php echo number_format($row['player2_points'],1);?>">
+                                <button class="btn btn-primary" type="submit">Update</button>
+                            </form>
+                        </div>
+                    <?php } else {
+                        echo "  <div class=\"rTableCell\">number_format({$row['player2_points']},1)</div>";
+                    }
                     echo "</div>";
                 }
                 ?>
