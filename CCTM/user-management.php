@@ -105,7 +105,7 @@ if (!empty($_POST['id']) && !empty($_POST['password'])) {
                         <div class="rTableCell">
                             <form method="POST" action="user-management.php">
                                 <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
-                                <input type="text" name="password" class="form-control" value="<?php echo $row['first'];?>">
+                                <input type="text" name="first" class="form-control" value="<?php echo $row['first'];?>">
                                 <button class="btn btn-primary" type="submit">Update</button>
                             </form>
                         </div>
@@ -116,7 +116,7 @@ if (!empty($_POST['id']) && !empty($_POST['password'])) {
                         <div class="rTableCell">
                             <form method="POST" action="user-management.php">
                                 <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
-                                <input type="text" name="password" class="form-control" value="<?php echo $row['last'];?>">
+                                <input type="text" name="last" class="form-control" value="<?php echo $row['last'];?>">
                                 <button class="btn btn-primary" type="submit">Update</button>
                             </form>
                         </div>
@@ -127,7 +127,7 @@ if (!empty($_POST['id']) && !empty($_POST['password'])) {
                         <div class="rTableCell">
                             <form method="POST" action="user-management.php">
                                 <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
-                                <input type="email" name="password" class="form-control" value="<?php echo $row['email'];?>">
+                                <input type="email" name="email" class="form-control" value="<?php echo $row['email'];?>">
                                 <button class="btn btn-primary" type="submit">Update</button>
                             </form>
                         </div>
@@ -139,7 +139,7 @@ if (!empty($_POST['id']) && !empty($_POST['password'])) {
                         <div class="rTableCell">
                             <form method="POST" action="user-management.php">
                                 <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
-                                <input type="text" name="phone" class="form-control" value="<?php echo $row['phone'];?>">
+                                <input type="number" name="phone" class="form-control" value="<?php echo $row['phone'];?>">
                                 <button class="btn btn-primary" type="submit">Update</button>
                             </form>
                         </div>
@@ -161,7 +161,7 @@ if (!empty($_POST['id']) && !empty($_POST['password'])) {
                         <div class="rTableCell">
                             <form method="POST" action="user-management.php">
                                 <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
-                                <input type="text" name="password" class="form-control" value="<?php echo $row['division'];?>">
+                                <input type="number" name="division" class="form-control" value="<?php echo $row['division'];?>">
                                 <button class="btn btn-primary" type="submit">Update</button>
                             </form>
                         </div>
