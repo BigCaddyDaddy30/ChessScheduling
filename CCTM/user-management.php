@@ -139,7 +139,7 @@ if (!empty($_POST['id']) && !empty($_POST['password'])) {
                         <div class="rTableCell">
                             <form method="POST" action="user-management.php">
                                 <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
-                                <input type="number" name="password" class="form-control" value="<?php echo $row['password'];?>">
+                                <input type="number" name="phone" class="form-control" value="<?php echo $row['phone'];?>">
                                 <button class="btn btn-primary" type="submit">Update</button>
                             </form>
                         </div>
