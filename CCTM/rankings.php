@@ -11,7 +11,7 @@ if(!isset($_SESSION['sess_username'])){
 <head>
     <meta charset="utf-8" />
     <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="assets/img/chess/Knight.png">
+    <link rel="icon" type="image/png" href="assets/img/chess/knight.jpg">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
     <title>IPFW Chess Club - User Management</title>

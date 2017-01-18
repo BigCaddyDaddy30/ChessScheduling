@@ -3762,6 +3762,11 @@ h2.title {
 
 /* Custom CSS */
 
+body{
+  background-image: url("../img/chess/GlassBG.jpg");
+  background-repeat: no-repeat;
+}
+
 .rTable {
     display: table;
     width: 100%;
