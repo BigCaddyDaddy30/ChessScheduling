@@ -139,7 +139,7 @@ if (!empty($_POST['id']) && !empty($_POST['password'])) {
                         <div class="rTableCell">
                             <form method="POST" action="user-management.php">
                                 <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
-                                <input type="number" name="phone" class="form-control" value="<?php echo $row['phone'];?>">
+                                <input type="text" name="phone" class="form-control" value="<?php echo $row['phone'];?>">
                                 <button class="btn btn-primary" type="submit">Update</button>
                             </form>
                         </div>
@@ -161,7 +161,7 @@ if (!empty($_POST['id']) && !empty($_POST['password'])) {
                         <div class="rTableCell">
                             <form method="POST" action="user-management.php">
                                 <input type="hidden" name="id" class="form-control" value="<?php echo $row['id'];?>">
-                                <input type="number" name="division" class="form-control" value="<?php echo $row['division'];?>">
+                                <input type="text" name="division" class="form-control" value="<?php echo $row['division'];?>">
                                 <button class="btn btn-primary" type="submit">Update</button>
                             </form>
                         </div>
