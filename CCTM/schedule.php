@@ -4,6 +4,15 @@ $role = $_SESSION['sess_userrole'];
 if(!isset($_SESSION['sess_username'])){
     header('Location: home-page.php?err=2');
 }
+
+    require_once('database-config.php');
+    $q = 'UPDATE members SET player1_points=:player1_points,player2_points=:player2_points WHERE id=:id';
+    $query = $dbh->prepare($q);
+    $query->execute(array(
+        ':id' => $_POST['id'],
+        ':player1_points' => $_POST['player1_points'],
+        ':player2_points' => $_POST['player2_points'],
+    ));
 ?>
 
 

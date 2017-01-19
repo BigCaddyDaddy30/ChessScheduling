@@ -7,11 +7,16 @@ if(!isset($_SESSION['sess_username'])){
 
 if (!empty($_POST['id']) && !empty($_POST['password'])) {
     require_once('database-config.php');
-    $q = 'UPDATE members SET password=:password WHERE id=:id';
+    $q = 'UPDATE members SET password=:password,first=:first,last=:last,phone=:phone,email=:email,division=:division WHERE id=:id';
     $query = $dbh->prepare($q);
     $query->execute(array(
         ':id' => $_POST['id'],
-        ':password' => $_POST['password']
+        ':password' => $_POST['password'],
+        ':first' => $_POST['first'],
+        ':last' => $_POST['last'],
+        ':phone' => $_POST['phone'],
+        ':email' => $_POST['email'],
+        ':division' => $_POST['division']
     ));
 }
 ?>
